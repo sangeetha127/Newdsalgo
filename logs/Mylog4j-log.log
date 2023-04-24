@@ -1,0 +1,782 @@
+['INFO ]2023-04-20 23:50:33,641(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter login credentials
+['INFO ]2023-04-21 07:56:09,607(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter login credentials
+['INFO ]2023-04-21 07:59:54,202(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter login credentials
+['INFO ]2023-04-21 07:59:55,820(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User redirected to login page
+['INFO ]2023-04-21 08:05:58,026(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter login credentials
+['INFO ]2023-04-21 08:20:13,043(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter login credentials
+['INFO ]2023-04-21 08:20:14,698(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User redirected to login page
+['INFO ]2023-04-21 10:59:43,975(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter login credentials
+['INFO ]2023-04-21 10:59:45,217(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User redirected to login page
+['INFO ]2023-04-21 11:42:33,049(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 11:42:34,998(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 11:42:37,164(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  "Please fill out this field."
+['INFO ]2023-04-21 11:42:37,202(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  password_mismatch:The two password fields didn’t match.
+['INFO ]2023-04-21 11:42:39,386(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 11:42:39,791(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 11:42:41,936(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  "Please fill out this field."
+['INFO ]2023-04-21 11:42:41,960(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  password_mismatch:The two password fields didn’t match.
+['INFO ]2023-04-21 11:42:44,115(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 11:42:44,583(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 11:42:46,717(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  "Please fill out this field."
+['INFO ]2023-04-21 11:42:46,744(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  password_mismatch:The two password fields didn’t match.
+['INFO ]2023-04-21 11:42:48,931(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 11:42:49,338(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 11:42:51,475(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  "Please fill out this field."
+['INFO ]2023-04-21 11:42:51,498(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  password_mismatch:The two password fields didn’t match.
+['INFO ]2023-04-21 11:42:53,653(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 11:42:54,060(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 11:42:56,201(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  "Please fill out this field."
+['INFO ]2023-04-21 11:42:56,223(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  password_mismatch:The two password fields didn’t match.
+['INFO ]2023-04-21 11:42:58,355(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 11:42:58,814(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 11:43:00,961(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  "Please fill out this field."
+['INFO ]2023-04-21 11:43:00,985(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  password_mismatch:The two password fields didn’t match.
+['INFO ]2023-04-21 11:43:03,129(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 11:43:03,565(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 11:43:05,703(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  "Please fill out this field."
+['INFO ]2023-04-21 11:43:05,725(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  password_mismatch:The two password fields didn’t match.
+['INFO ]2023-04-21 11:43:07,886(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 11:43:08,239(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 11:43:10,363(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  "Please fill out this field."
+['INFO ]2023-04-21 11:43:10,385(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  password_mismatch:The two password fields didn’t match.
+['INFO ]2023-04-21 11:43:12,528(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 11:43:12,843(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 11:43:14,988(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  "Please fill out this field."
+['INFO ]2023-04-21 11:43:15,012(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  password_mismatch:The two password fields didn’t match.
+['INFO ]2023-04-21 11:43:17,169(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 11:43:17,454(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 11:43:19,582(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  "Please fill out this field."
+['INFO ]2023-04-21 11:43:19,606(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  password_mismatch:The two password fields didn’t match.
+['INFO ]2023-04-21 11:43:21,759(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 11:43:22,179(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 11:43:24,315(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  "Please fill out this field."
+['INFO ]2023-04-21 11:43:24,342(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  password_mismatch:The two password fields didn’t match.
+['INFO ]2023-04-21 11:46:41,031(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 11:46:42,427(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 11:46:44,564(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  "Please fill out this field."
+['INFO ]2023-04-21 11:46:44,593(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  password_mismatch:The two password fields didn’t match.
+['INFO ]2023-04-21 11:46:46,791(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 11:46:47,202(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 11:46:49,335(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  "Please fill out this field."
+['INFO ]2023-04-21 11:46:49,357(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  password_mismatch:The two password fields didn’t match.
+['INFO ]2023-04-21 11:46:51,514(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 11:46:51,768(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 11:46:53,913(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  "Please fill out this field."
+['INFO ]2023-04-21 11:46:53,939(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  password_mismatch:The two password fields didn’t match.
+['INFO ]2023-04-21 11:46:56,097(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 11:46:56,519(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 11:46:58,638(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  "Please fill out this field."
+['INFO ]2023-04-21 11:46:58,665(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  password_mismatch:The two password fields didn’t match.
+['INFO ]2023-04-21 11:47:00,832(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 11:47:01,145(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 11:47:03,277(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  "Please fill out this field."
+['INFO ]2023-04-21 11:47:03,300(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  password_mismatch:The two password fields didn’t match.
+['INFO ]2023-04-21 11:47:05,452(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 11:47:05,829(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 11:47:07,970(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  "Please fill out this field."
+['INFO ]2023-04-21 11:47:08,002(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  password_mismatch:The two password fields didn’t match.
+['INFO ]2023-04-21 11:47:10,129(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 11:47:10,370(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 11:47:12,513(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  "Please fill out this field."
+['INFO ]2023-04-21 11:47:12,538(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  password_mismatch:The two password fields didn’t match.
+['INFO ]2023-04-21 11:47:14,673(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 11:47:14,947(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 11:47:17,060(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  "Please fill out this field."
+['INFO ]2023-04-21 11:47:17,080(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  password_mismatch:The two password fields didn’t match.
+['INFO ]2023-04-21 11:47:19,210(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 11:47:19,418(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 11:47:21,516(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  "Please fill out this field."
+['INFO ]2023-04-21 11:47:21,540(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  password_mismatch:The two password fields didn’t match.
+['INFO ]2023-04-21 11:47:23,694(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 11:47:23,862(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 11:47:25,976(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  "Please fill out this field."
+['INFO ]2023-04-21 11:47:25,993(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  password_mismatch:The two password fields didn’t match.
+['INFO ]2023-04-21 11:47:28,098(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 11:47:28,225(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 11:47:30,316(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  "Please fill out this field."
+['INFO ]2023-04-21 11:47:30,337(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  password_mismatch:The two password fields didn’t match.
+['INFO ]2023-04-21 11:52:03,393(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 11:52:04,555(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 11:52:06,692(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  success
+['INFO ]2023-04-21 11:52:06,723(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  password_mismatch:The two password fields didn’t match.
+['INFO ]2023-04-21 11:52:08,903(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 11:52:09,105(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 11:52:11,271(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  success
+['INFO ]2023-04-21 11:52:11,296(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  password_mismatch:The two password fields didn’t match.
+['INFO ]2023-04-21 11:52:13,469(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 11:52:13,739(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 11:52:15,878(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  success
+['INFO ]2023-04-21 11:52:15,905(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  password_mismatch:The two password fields didn’t match.
+['INFO ]2023-04-21 11:52:18,114(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 11:52:18,362(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 11:52:20,503(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  success
+['INFO ]2023-04-21 11:52:20,530(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  password_mismatch:The two password fields didn’t match.
+['INFO ]2023-04-21 11:52:22,684(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 11:52:22,882(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 11:52:25,034(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  success
+['INFO ]2023-04-21 11:52:25,062(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  password_mismatch:The two password fields didn’t match.
+['INFO ]2023-04-21 11:52:27,204(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 11:52:27,431(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 11:52:29,549(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  success
+['INFO ]2023-04-21 11:52:29,572(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  password_mismatch:The two password fields didn’t match.
+['INFO ]2023-04-21 11:52:31,710(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 11:52:31,974(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 11:52:34,070(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  success
+['INFO ]2023-04-21 11:52:34,089(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  password_mismatch:The two password fields didn’t match.
+['INFO ]2023-04-21 11:52:36,187(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 11:52:36,319(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 11:52:38,431(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  success
+['INFO ]2023-04-21 11:52:38,451(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  password_mismatch:The two password fields didn’t match.
+['INFO ]2023-04-21 11:52:40,543(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 11:52:40,674(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 11:52:42,758(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  success
+['INFO ]2023-04-21 11:52:42,776(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  password_mismatch:The two password fields didn’t match.
+['INFO ]2023-04-21 11:52:44,871(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 11:52:45,019(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 11:52:47,129(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  success
+['INFO ]2023-04-21 11:52:47,147(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  password_mismatch:The two password fields didn’t match.
+['INFO ]2023-04-21 11:52:49,249(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 11:52:49,371(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 11:52:51,477(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  success
+['INFO ]2023-04-21 11:52:51,496(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  password_mismatch:The two password fields didn’t match.
+['INFO ]2023-04-21 12:23:25,035(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 12:23:26,472(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 12:23:28,614(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  "Please fill out this field."
+['INFO ]2023-04-21 12:23:28,644(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  password_mismatch:The two password fields didn’t match.
+['INFO ]2023-04-21 12:23:30,870(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 12:23:31,310(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 12:23:33,515(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  "Please fill out this field."
+['INFO ]2023-04-21 12:23:33,541(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  password_mismatch:The two password fields didn’t match.
+['INFO ]2023-04-21 12:23:35,790(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 12:23:36,129(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 12:23:38,275(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  "Please fill out this field."
+['INFO ]2023-04-21 12:23:38,308(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  password_mismatch:The two password fields didn’t match.
+['INFO ]2023-04-21 12:23:40,475(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 12:23:40,797(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 12:23:42,947(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  "Please enter a valid username"
+['INFO ]2023-04-21 12:23:42,975(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  password_mismatch:The two password fields didn’t match.
+['INFO ]2023-04-21 12:23:45,131(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 12:23:45,505(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 12:23:47,648(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  "Username already exists"
+['INFO ]2023-04-21 12:23:47,677(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  password_mismatch:The two password fields didn’t match.
+['INFO ]2023-04-21 12:23:49,858(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 12:23:50,157(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 12:23:52,307(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  "password_mismatch:The two password fields didn’t match."
+['INFO ]2023-04-21 12:23:52,332(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  password_mismatch:The two password fields didn’t match.
+['INFO ]2023-04-21 12:23:54,499(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 12:23:54,789(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 12:23:56,942(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  "Password should contain at least 8 characters"
+['INFO ]2023-04-21 12:23:56,966(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  password_mismatch:The two password fields didn’t match.
+['INFO ]2023-04-21 12:23:59,115(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 12:23:59,425(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 12:24:01,564(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  "Password can’t be entirely numeric."
+['INFO ]2023-04-21 12:24:01,594(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  password_mismatch:The two password fields didn’t match.
+['INFO ]2023-04-21 12:24:03,764(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 12:24:04,077(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 12:24:06,247(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  "password can’t be too similar to your other personal information."
+['INFO ]2023-04-21 12:24:06,277(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  password_mismatch:The two password fields didn’t match.
+['INFO ]2023-04-21 12:24:08,480(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 12:24:08,838(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 12:24:10,985(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  "Password can’t be commonly used password"
+['INFO ]2023-04-21 12:24:11,018(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  password_mismatch:The two password fields didn’t match.
+['INFO ]2023-04-21 12:24:13,243(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 12:24:13,478(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 12:24:15,644(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  "New Account Created. You are logged in as <username>"
+['INFO ]2023-04-21 12:24:15,680(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  password_mismatch:The two password fields didn’t match.
+['INFO ]2023-04-21 12:53:01,646(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 12:53:02,879(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 12:53:07,243(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 12:53:07,588(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 12:53:11,923(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 12:53:12,215(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 12:53:16,539(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 12:53:16,908(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 12:53:21,187(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 12:53:21,503(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 12:53:25,893(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 12:53:26,184(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 12:53:30,472(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 12:53:30,742(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 12:53:35,032(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 12:53:35,274(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 12:53:39,562(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 12:53:39,802(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 12:53:44,097(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 12:53:44,395(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 12:53:48,658(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 12:53:48,904(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 14:11:27,193(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 14:11:28,642(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 14:11:30,813(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  "Please fill out this field."
+['INFO ]2023-04-21 14:11:30,813(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  
+['INFO ]2023-04-21 14:11:32,958(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 14:11:33,409(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 14:11:35,616(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  "Please fill out this field."
+['INFO ]2023-04-21 14:11:35,616(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  
+['INFO ]2023-04-21 14:11:37,792(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 14:11:38,224(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 14:11:40,390(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  "Please fill out this field."
+['INFO ]2023-04-21 14:11:40,390(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  
+['INFO ]2023-04-21 14:11:42,539(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 14:11:42,882(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 14:11:45,063(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  "Please enter a valid username"
+['INFO ]2023-04-21 14:11:45,064(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  
+['INFO ]2023-04-21 14:11:47,198(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 14:11:47,490(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 14:11:49,664(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  "Username already exists"
+['INFO ]2023-04-21 14:11:49,665(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  
+['INFO ]2023-04-21 14:11:51,784(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 14:11:52,134(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 14:11:54,314(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  "password_mismatch:The two password fields didn’t match."
+['INFO ]2023-04-21 14:11:54,314(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  
+['INFO ]2023-04-21 14:11:56,435(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 14:11:56,760(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 14:11:58,918(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  "Password should contain at least 8 characters"
+['INFO ]2023-04-21 14:11:58,919(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  
+['INFO ]2023-04-21 14:12:01,044(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 14:12:01,353(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 14:12:03,523(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  "Password can’t be entirely numeric."
+['INFO ]2023-04-21 14:12:03,523(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  
+['INFO ]2023-04-21 14:12:05,633(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 14:12:05,900(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 14:12:08,079(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  "password can’t be too similar to your other personal information."
+['INFO ]2023-04-21 14:12:08,080(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  
+['INFO ]2023-04-21 14:12:10,207(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 14:12:10,439(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 14:12:12,604(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  "Password can’t be commonly used password"
+['INFO ]2023-04-21 14:12:12,604(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  
+['INFO ]2023-04-21 14:12:14,729(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 14:12:14,984(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 14:12:17,178(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Expected Message - Excel Sheet :  "New Account Created. You are logged in as <username>"
+['INFO ]2023-04-21 14:12:17,179(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Actual Message :  
+['INFO ]2023-04-21 14:58:31,602(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 14:58:32,738(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 14:58:39,115(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 14:58:39,391(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 14:58:45,744(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 14:58:46,012(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 14:58:52,345(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 14:58:52,677(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 14:58:59,005(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 14:58:59,298(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 14:59:05,650(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 14:59:05,903(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 14:59:12,255(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 14:59:12,505(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 14:59:18,883(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 14:59:19,138(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 14:59:25,483(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 14:59:25,753(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 14:59:32,135(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 14:59:32,412(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 14:59:38,752(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 14:59:39,016(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 20:37:53,739(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-portal opened
+['INFO ]2023-04-21 20:37:54,107(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Getstarted btn click
+['INFO ]2023-04-21 20:37:55,129(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User navigated to home page
+['INFO ]2023-04-21 20:37:57,348(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 20:38:00,163(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 20:38:06,623(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 20:38:07,723(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 20:38:14,127(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 20:38:14,873(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 20:38:21,272(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 20:38:22,287(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 20:38:28,648(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 20:38:29,086(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 20:38:35,459(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 20:38:36,092(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 20:38:42,596(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 20:38:43,152(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 20:38:49,581(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 20:38:49,969(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 20:38:56,345(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 20:38:56,633(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 20:39:03,048(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 20:39:03,457(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 20:39:09,818(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 20:39:10,107(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 21:27:22,249(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-portal opened
+['INFO ]2023-04-21 21:27:22,633(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Getstarted btn click
+['INFO ]2023-04-21 21:27:23,647(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User navigated to home page
+['INFO ]2023-04-21 21:37:03,143(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-portal opened
+['INFO ]2023-04-21 21:37:03,409(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Getstarted btn click
+['INFO ]2023-04-21 21:37:04,435(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User navigated to home page
+['INFO ]2023-04-21 21:37:06,624(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 21:37:09,222(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 21:37:15,609(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 21:37:16,540(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 21:37:22,912(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 21:37:23,896(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 21:37:30,279(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 21:37:31,095(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 21:37:37,492(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 21:37:38,042(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 21:37:44,446(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 21:37:44,724(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 21:37:51,094(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 21:37:51,392(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 21:37:57,778(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 21:37:58,052(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 21:38:04,420(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 21:38:04,698(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 21:38:11,080(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 21:38:11,352(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 21:38:17,726(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-21 21:38:18,100(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-21 22:13:39,463(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-portal opened
+['INFO ]2023-04-21 22:13:40,698(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Getstarted btn click
+['INFO ]2023-04-21 22:13:41,718(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User navigated to home page
+['INFO ]2023-04-21 22:15:23,137(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-portal opened
+['INFO ]2023-04-21 22:15:23,425(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Getstarted btn click
+['INFO ]2023-04-21 22:15:24,455(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User navigated to home page
+['INFO ]2023-04-22 08:54:00,415(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-portal opened
+['INFO ]2023-04-22 08:54:00,740(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Getstarted btn click
+['INFO ]2023-04-22 08:54:01,781(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User navigated to home page
+['INFO ]2023-04-22 08:58:48,926(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-portal opened
+['INFO ]2023-04-22 08:58:49,278(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Getstarted btn click
+['INFO ]2023-04-22 08:58:50,289(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User navigated to home page
+['INFO ]2023-04-22 08:58:52,509(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-22 08:58:55,028(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-22 08:58:59,443(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-22 08:59:00,554(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-22 08:59:04,929(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-22 08:59:05,693(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-22 08:59:10,039(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-22 08:59:10,760(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-22 08:59:15,119(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-22 08:59:15,758(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-22 08:59:20,077(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-22 08:59:20,308(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-22 08:59:24,632(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-22 08:59:24,861(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-22 08:59:29,173(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-22 08:59:29,399(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-22 08:59:33,770(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-22 08:59:33,993(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-22 08:59:38,306(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-22 08:59:38,519(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-22 08:59:42,838(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-22 08:59:43,051(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-22 09:01:13,624(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-portal opened
+['INFO ]2023-04-22 09:01:13,907(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Getstarted btn click
+['INFO ]2023-04-22 09:01:14,936(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User navigated to home page
+['INFO ]2023-04-22 09:01:17,153(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-22 09:01:20,050(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-22 09:01:26,473(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-22 09:01:27,341(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-22 09:01:33,759(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-22 09:01:34,373(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-22 09:01:40,756(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-22 09:01:41,768(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-22 09:01:48,202(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-22 09:01:49,005(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-22 09:01:55,493(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-22 09:01:56,191(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-22 09:02:02,598(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-22 09:02:02,818(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-22 09:02:09,240(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-22 09:02:09,495(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-22 09:02:15,882(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-22 09:02:16,080(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-22 09:02:22,431(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-22 09:02:22,658(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-22 09:02:29,003(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-22 09:02:29,240(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-22 21:39:36,982(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-portal opened
+['INFO ]2023-04-22 21:39:37,252(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Getstarted btn click
+['INFO ]2023-04-22 21:39:38,286(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User navigated to home page
+['INFO ]2023-04-22 21:39:40,489(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-22 21:39:43,117(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-22 21:39:49,542(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-22 21:39:50,776(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-22 21:39:57,183(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-22 21:39:57,832(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-22 21:40:04,268(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-22 21:40:05,442(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-22 21:40:11,824(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-22 21:40:12,410(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-22 21:40:18,829(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-22 21:40:19,760(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-22 21:40:26,157(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-22 21:40:26,456(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-22 21:40:32,835(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-22 21:40:33,137(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-22 21:40:39,556(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-22 21:40:39,837(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-22 21:40:46,214(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-22 21:40:46,493(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-22 21:40:52,867(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-22 21:40:53,161(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-24 13:58:37,535(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-launch browser
+['INFO ]2023-04-24 14:02:08,915(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-launch browser
+['INFO ]2023-04-24 14:06:39,714(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-launch browser
+['INFO ]2023-04-24 14:09:31,858(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getchromedriver
+['INFO ]2023-04-24 14:09:34,322(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:09:34,323(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 14:09:34,328(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:09:34,340(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-launch browser
+['INFO ]2023-04-24 14:09:36,555(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-portal opened
+['INFO ]2023-04-24 14:09:36,813(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Getstarted btn click
+['INFO ]2023-04-24 14:09:37,825(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User navigated to home page
+['INFO ]2023-04-24 14:09:39,639(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getchromedriver
+['INFO ]2023-04-24 14:09:40,354(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:09:40,354(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 14:09:40,356(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:09:40,390(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:09:41,936(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getchromedriver
+['INFO ]2023-04-24 14:09:42,687(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:09:42,687(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 14:09:42,688(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:09:42,705(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:09:44,255(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getchromedriver
+['INFO ]2023-04-24 14:09:44,968(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:09:44,969(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 14:09:44,970(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:09:44,995(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:09:46,504(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getchromedriver
+['INFO ]2023-04-24 14:09:47,302(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:09:47,302(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 14:09:47,303(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:09:47,323(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:09:48,990(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getchromedriver
+['INFO ]2023-04-24 14:09:49,789(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:09:49,789(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 14:42:54,423(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getchromedriver
+['INFO ]2023-04-24 14:42:55,705(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:42:55,705(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 14:42:55,709(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:42:55,718(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-launch browser
+['INFO ]2023-04-24 14:42:57,884(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-portal opened
+['INFO ]2023-04-24 14:42:58,135(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Getstarted btn click
+['INFO ]2023-04-24 14:43:00,153(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-NumpyNinja
+['INFO ]2023-04-24 14:43:00,155(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User navigated to home page
+['INFO ]2023-04-24 14:43:00,158(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter teardown
+['INFO ]2023-04-24 14:43:01,967(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getchromedriver
+['INFO ]2023-04-24 14:43:02,738(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:43:02,739(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 14:43:02,740(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:43:02,773(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:43:02,867(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter teardown
+['INFO ]2023-04-24 14:43:04,367(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getchromedriver
+['INFO ]2023-04-24 14:43:05,067(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:43:05,067(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 14:43:05,068(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:43:05,088(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:43:05,198(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter teardown
+['INFO ]2023-04-24 14:43:06,634(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getchromedriver
+['INFO ]2023-04-24 14:43:07,435(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:43:07,435(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 14:43:07,436(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:43:07,457(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:43:07,557(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter teardown
+['INFO ]2023-04-24 14:43:09,026(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getchromedriver
+['INFO ]2023-04-24 14:43:09,730(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:43:09,731(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 14:43:09,732(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:43:09,752(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:43:09,855(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter teardown
+['INFO ]2023-04-24 14:43:11,343(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getchromedriver
+['INFO ]2023-04-24 14:43:12,049(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:43:12,049(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 14:43:12,050(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:43:12,072(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:43:12,207(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter teardown
+['INFO ]2023-04-24 14:43:13,641(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getchromedriver
+['INFO ]2023-04-24 14:43:14,366(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:43:14,367(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 14:43:14,368(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:43:14,388(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:43:14,486(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter teardown
+['INFO ]2023-04-24 14:43:15,871(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getchromedriver
+['INFO ]2023-04-24 14:43:16,623(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:43:16,624(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 14:43:16,625(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:43:16,650(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:43:16,749(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter teardown
+['INFO ]2023-04-24 14:43:18,182(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getchromedriver
+['INFO ]2023-04-24 14:43:18,904(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:43:18,905(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 14:43:18,905(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:43:18,926(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:43:19,020(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter teardown
+['INFO ]2023-04-24 14:43:20,475(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getchromedriver
+['INFO ]2023-04-24 14:43:21,226(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:43:21,226(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 14:43:21,227(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:43:21,247(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:43:21,335(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter teardown
+['INFO ]2023-04-24 14:43:22,769(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getchromedriver
+['INFO ]2023-04-24 14:43:23,533(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:43:23,534(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 14:43:23,535(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:43:23,554(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:43:23,656(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter teardown
+['INFO ]2023-04-24 14:43:25,077(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getchromedriver
+['INFO ]2023-04-24 14:43:25,764(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:43:25,765(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 14:43:25,766(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:43:25,785(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:43:25,899(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter teardown
+['INFO ]2023-04-24 14:56:43,343(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getchromedriver
+['INFO ]2023-04-24 14:56:44,737(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:56:44,737(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 14:56:44,741(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:56:44,754(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-launch browser
+['INFO ]2023-04-24 14:56:46,914(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-portal opened
+['INFO ]2023-04-24 14:56:47,184(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Getstarted btn click
+['INFO ]2023-04-24 14:56:49,211(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-NumpyNinja
+['INFO ]2023-04-24 14:56:49,212(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User navigated to home page
+['INFO ]2023-04-24 14:56:49,214(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter teardown
+['INFO ]2023-04-24 14:56:51,062(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getchromedriver
+['INFO ]2023-04-24 14:56:51,779(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:56:51,779(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 14:56:51,794(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:56:51,887(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter teardown
+['INFO ]2023-04-24 14:56:53,327(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getchromedriver
+['INFO ]2023-04-24 14:56:54,105(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:56:54,105(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 14:56:54,109(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:56:54,220(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter teardown
+['INFO ]2023-04-24 14:56:55,725(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getchromedriver
+['INFO ]2023-04-24 14:56:56,451(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:56:56,451(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 14:56:56,455(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:56:56,539(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter teardown
+['INFO ]2023-04-24 14:56:58,030(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getchromedriver
+['INFO ]2023-04-24 14:56:58,808(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:56:58,808(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 14:56:58,811(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:56:58,920(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter teardown
+['INFO ]2023-04-24 14:57:00,389(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getchromedriver
+['INFO ]2023-04-24 14:57:01,205(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:57:01,205(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 14:57:01,209(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:57:01,324(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter teardown
+['INFO ]2023-04-24 14:57:02,795(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getchromedriver
+['INFO ]2023-04-24 14:57:03,629(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:57:03,630(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 14:57:03,633(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:57:03,724(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter teardown
+['INFO ]2023-04-24 14:57:05,192(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getchromedriver
+['INFO ]2023-04-24 14:57:05,965(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:57:05,966(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 14:57:05,975(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:57:06,094(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter teardown
+['INFO ]2023-04-24 14:57:07,586(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getchromedriver
+['INFO ]2023-04-24 14:57:08,318(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:57:08,318(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 14:57:08,321(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:57:08,425(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter teardown
+['INFO ]2023-04-24 14:57:09,891(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getchromedriver
+['INFO ]2023-04-24 14:57:10,589(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:57:10,589(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 14:57:10,593(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:57:10,699(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter teardown
+['INFO ]2023-04-24 14:57:12,214(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getchromedriver
+['INFO ]2023-04-24 14:57:12,973(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:57:12,973(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 14:57:12,977(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:57:13,110(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter teardown
+['INFO ]2023-04-24 14:57:14,540(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getchromedriver
+['INFO ]2023-04-24 14:57:15,273(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:57:15,273(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 14:57:15,277(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 14:57:15,415(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter teardown
+['INFO ]2023-04-24 15:12:49,800(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getchromedriver
+['INFO ]2023-04-24 15:12:51,190(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:12:51,190(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 15:12:51,194(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:12:51,207(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-launch browser
+['INFO ]2023-04-24 15:12:53,390(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-portal opened
+['INFO ]2023-04-24 15:12:53,692(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Getstarted btn click
+['INFO ]2023-04-24 15:12:55,716(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-NumpyNinja
+['INFO ]2023-04-24 15:12:55,717(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User navigated to home page
+['INFO ]2023-04-24 15:12:55,720(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter teardown
+['INFO ]2023-04-24 15:12:57,627(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getchromedriver
+['INFO ]2023-04-24 15:12:58,345(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:12:58,345(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 15:12:58,351(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:12:58,447(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter teardown
+['INFO ]2023-04-24 15:12:59,919(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getchromedriver
+['INFO ]2023-04-24 15:13:00,689(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:13:00,689(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 15:13:00,693(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:13:00,794(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter teardown
+['INFO ]2023-04-24 15:13:02,244(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getchromedriver
+['INFO ]2023-04-24 15:13:02,956(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:13:02,956(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 15:13:02,959(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:13:03,052(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter teardown
+['INFO ]2023-04-24 15:13:04,480(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getchromedriver
+['INFO ]2023-04-24 15:13:05,262(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:13:05,262(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 15:13:05,264(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:13:05,364(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter teardown
+['INFO ]2023-04-24 15:13:06,784(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getchromedriver
+['INFO ]2023-04-24 15:13:07,548(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:13:07,548(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 15:13:07,550(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:13:07,686(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter teardown
+['INFO ]2023-04-24 15:13:09,173(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getchromedriver
+['INFO ]2023-04-24 15:13:09,900(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:13:09,900(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 15:13:09,902(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:13:10,059(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter teardown
+['INFO ]2023-04-24 15:13:11,458(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getchromedriver
+['INFO ]2023-04-24 15:13:12,209(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:13:12,209(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 15:13:12,215(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:13:12,311(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter teardown
+['INFO ]2023-04-24 15:13:13,777(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getchromedriver
+['INFO ]2023-04-24 15:13:14,537(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:13:14,537(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 15:13:14,541(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:13:14,641(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter teardown
+['INFO ]2023-04-24 15:13:16,113(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getchromedriver
+['INFO ]2023-04-24 15:13:16,870(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:13:16,870(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 15:13:16,873(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:13:16,972(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter teardown
+['INFO ]2023-04-24 15:13:18,470(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getchromedriver
+['INFO ]2023-04-24 15:13:19,203(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:13:19,203(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 15:13:19,206(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:13:19,318(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter teardown
+['INFO ]2023-04-24 15:13:20,736(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getchromedriver
+['INFO ]2023-04-24 15:13:21,485(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:13:21,486(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 15:13:21,487(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:13:21,596(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter teardown
+['INFO ]2023-04-24 15:18:10,290(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:18:10,293(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-getdriver
+['INFO ]2023-04-24 15:18:10,297(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getchromedriver
+['INFO ]2023-04-24 15:18:11,653(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:18:11,653(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 15:18:11,658(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:18:11,679(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-launch browser
+['INFO ]2023-04-24 15:18:13,884(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-portal opened
+['INFO ]2023-04-24 15:18:14,153(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Getstarted btn click
+['INFO ]2023-04-24 15:18:16,178(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-NumpyNinja
+['INFO ]2023-04-24 15:18:16,179(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User navigated to home page
+['INFO ]2023-04-24 15:18:16,191(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:18:16,191(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-getdriver
+['INFO ]2023-04-24 15:18:16,192(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 15:18:16,197(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:18:16,333(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:18:16,333(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-getdriver
+['INFO ]2023-04-24 15:18:16,334(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 15:18:16,335(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:18:16,446(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:18:16,446(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-getdriver
+['INFO ]2023-04-24 15:18:16,446(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 15:18:16,447(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:18:16,560(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:18:16,560(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-getdriver
+['INFO ]2023-04-24 15:18:16,562(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 15:18:16,563(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:18:16,656(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:18:16,656(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-getdriver
+['INFO ]2023-04-24 15:18:16,657(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 15:18:16,658(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:18:16,757(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:18:16,757(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-getdriver
+['INFO ]2023-04-24 15:18:16,757(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 15:18:16,760(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:18:16,856(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:18:16,856(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-getdriver
+['INFO ]2023-04-24 15:18:16,856(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 15:18:16,859(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:18:16,958(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:18:16,958(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-getdriver
+['INFO ]2023-04-24 15:18:16,958(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 15:18:16,960(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:18:17,055(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:18:17,055(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-getdriver
+['INFO ]2023-04-24 15:18:17,055(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 15:18:17,057(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:18:17,169(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:18:17,170(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-getdriver
+['INFO ]2023-04-24 15:18:17,170(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 15:18:17,174(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:18:17,281(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:18:17,282(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-getdriver
+['INFO ]2023-04-24 15:18:17,282(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 15:18:17,284(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:21:44,322(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:21:44,325(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-getdriver
+['INFO ]2023-04-24 15:21:44,331(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getchromedriver
+['INFO ]2023-04-24 15:21:45,658(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:21:45,658(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 15:21:45,661(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:21:45,677(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-launch browser
+['INFO ]2023-04-24 15:21:47,878(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-portal opened
+['INFO ]2023-04-24 15:21:48,151(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Getstarted btn click
+['INFO ]2023-04-24 15:21:50,172(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-NumpyNinja
+['INFO ]2023-04-24 15:21:50,175(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User navigated to home page
+['INFO ]2023-04-24 15:21:50,186(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:21:50,187(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-getdriver
+['INFO ]2023-04-24 15:21:50,187(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 15:21:50,188(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:21:54,307(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-24 15:21:55,873(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-24 15:22:00,060(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:22:00,061(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-getdriver
+['INFO ]2023-04-24 15:22:00,061(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 15:22:00,062(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:22:04,209(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-24 15:22:04,540(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-24 15:22:08,699(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:22:08,699(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-getdriver
+['INFO ]2023-04-24 15:22:08,699(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 15:22:08,700(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:22:12,812(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-24 15:22:13,107(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-24 15:22:17,239(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:22:17,239(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-getdriver
+['INFO ]2023-04-24 15:22:17,239(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 15:22:17,240(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:22:21,367(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-24 15:22:21,684(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-24 15:22:25,873(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:22:25,873(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-getdriver
+['INFO ]2023-04-24 15:22:25,874(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 15:22:25,874(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:22:30,024(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-24 15:22:30,369(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-24 15:22:34,539(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:22:34,539(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-getdriver
+['INFO ]2023-04-24 15:22:34,540(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 15:22:34,541(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:22:38,702(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-24 15:22:39,004(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-24 15:22:43,168(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:22:43,168(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-getdriver
+['INFO ]2023-04-24 15:22:43,170(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 15:22:43,171(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:22:47,323(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-24 15:22:47,563(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-24 15:22:51,728(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:22:51,728(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-getdriver
+['INFO ]2023-04-24 15:22:51,728(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 15:22:51,729(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:22:55,865(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-24 15:22:56,126(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-24 15:23:00,277(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:23:00,278(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-getdriver
+['INFO ]2023-04-24 15:23:00,279(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 15:23:00,279(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:23:04,425(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-24 15:23:04,743(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-24 15:23:08,920(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:23:08,920(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-getdriver
+['INFO ]2023-04-24 15:23:08,921(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 15:23:08,921(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:23:13,049(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-24 15:23:13,322(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-24 15:23:17,475(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:23:17,476(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-getdriver
+['INFO ]2023-04-24 15:23:17,476(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-24 15:23:17,477(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-24 15:23:21,609(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
+['INFO ]2023-04-24 15:23:21,855(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered

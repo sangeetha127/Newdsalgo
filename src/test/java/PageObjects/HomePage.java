@@ -17,10 +17,13 @@ public class HomePage extends Combase  {
 	//@FindBy(xpath="//button[text()='Get Started']") WebElement getstarted;
 	//@FindBy(xpath="//a[text()='Data Structures']") WebElement dropdownele;
 	//@FindBy(css = "div#dropdown-menu show")
-	//@FindBy(linkText="Data Structures")	WebElement dropdownele;
+		//@FindBy(linkText="Data Structures")	WebElement dropdownele;
 	
 	
-	@FindBy(xpath="//a[contains(text(),'Data Structures')]")WebElement dropdownele;
+	
+	
+	//@FindBy(xpath="//a[contains(text(),'Data Structures')]")WebElement dropdownele;
+	@FindBy(xpath="//div[@class='nav-item dropdown']/a") WebElement dropdownele;
 	@FindBy (xpath="//a[text()='Arrays']") WebElement arraysele;
 
 	@FindBy (xpath="//a[text()='Linked List']")	WebElement linkedlistele;
@@ -33,7 +36,8 @@ public class HomePage extends Combase  {
 
 	@FindBy (xpath="//a[text()='Graph']") WebElement graphele;
 
-	@FindBy (className="alert alert-primary")WebElement alertele;
+	//@FindBy (className="alert alert-primary")WebElement alertele;
+	
 	@FindBy (xpath = "//h5[text()='Array']/..//a") WebElement moduleele;
 
 	//constructor of the homepage
@@ -60,7 +64,7 @@ public class HomePage extends Combase  {
 		arraysele.click();
 	}
 	public void alert() {
-		alertele.getText();
+		//alertele.getText();
 	}
 	public void modulegtstarted() {
 		moduleele.click();

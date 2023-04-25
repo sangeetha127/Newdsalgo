@@ -19,7 +19,7 @@
 
 Feature: feature to test ds algo portal link
 
- 
+ @tag1
  Scenario: Launch url and navigate to home page
     Given User launch chrome browser
     And User opens dsalgo portal app url

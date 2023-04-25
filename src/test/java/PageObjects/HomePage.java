@@ -42,7 +42,7 @@ public class HomePage extends Combase  {
 		//this.driver=driver;
 		LoggerLoad.info("enter homepage feature");
 		PageFactory.initElements(driver,this);
-		//driver.switchTo().window(driver.getWindowHandle());
+		driver.switchTo().window(driver.getWindowHandle());
 		//PageFactory.initElements(new AjaxElementLocatorFactory(driver, 20), this);
 
 	}

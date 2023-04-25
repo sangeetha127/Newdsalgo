@@ -11,10 +11,10 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 @CucumberOptions(
 		plugin = {"pretty", "html:target/Ds-algo.html",  //cucumber reports
 				"json:target/Ds-algo.json",
-				"rerun:target/rerun.txt"   //mandatory for capture failures 
+				"rerun:target/rerun.txt"  //mandatory for capture failures 
 				}, //reporting purpose-- html reports are created
-		monochrome=false,  //console output color and eliminate junk characters
-		dryRun=false, // (=true)->compilation purpose mostly to chk stepdefinitions are implemented or not
+		monochrome=true,  //console output color and eliminate junk characters
+		//dryRun=false, // (=true)->compilation purpose mostly to chk stepdefinitions are implemented or not
 		tags = "", //tags from feature file
 		features = {"src/test/resources/Features"}, //location of feature files, we can give this way-->".//features//"
 		glue= {"stepdefinitions","Allhooks"}) //location of step definition files, gives granural level of info in test result

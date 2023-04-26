@@ -3066,3 +3066,24 @@
 ['INFO ]2023-04-25 19:16:59,329(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
 ['INFO ]2023-04-25 19:17:03,486(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-User enter registration credentials
 ['INFO ]2023-04-25 19:17:03,901(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-Registration credentials entered
+['INFO ]2023-04-25 22:25:21,861(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-25 22:25:21,864(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-getdriver
+['INFO ]2023-04-25 22:25:21,866(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-25 22:25:21,869(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getchromedriver
+['INFO ]2023-04-25 22:25:25,165(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-25 22:25:25,181(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-25 22:25:25,308(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-25 22:25:25,314(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-25 22:25:25,314(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-25 22:25:25,335(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-25 22:25:25,336(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-getdriver
+['INFO ]2023-04-25 22:25:25,336(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-25 22:25:25,336(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-25 22:25:25,343(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-25 22:25:25,343(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-getdriver
+['INFO ]2023-04-25 22:25:25,343(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-25 22:25:25,343(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup
+['INFO ]2023-04-25 22:25:25,349(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-25 22:25:25,350(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-getdriver
+['INFO ]2023-04-25 22:25:25,351(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-enter getdriver
+['INFO ]2023-04-25 22:25:25,351(yyyy-MM-ddHH:mm:ss.SSS][main]utilities.LoggerLoad1)-driver setup

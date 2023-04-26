@@ -17,6 +17,7 @@ import utilities.*;
 
 public class registrationsd extends Combase {
 	String excelpath =".\\src/test/resources/ExcelData/ds-algoregistration.xlsx";
+	
 	//String excelpath =".\\src/test/resources/ExcelData/dummysheet.xlsx";
 
 	String expmsg="";

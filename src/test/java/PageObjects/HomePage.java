@@ -37,7 +37,7 @@ public class HomePage extends Combase  {
 	@FindBy (xpath="//a[text()='Graph']") WebElement graphele;
 
 	//@FindBy (className="alert alert-primary")WebElement alertele;
-	
+	@FindBy(xpath="//div[@role='alert']")WebElement alertele;
 	@FindBy (xpath = "//h5[text()='Array']/..//a") WebElement moduleele;
 
 	//constructor of the homepage
@@ -63,8 +63,8 @@ public class HomePage extends Combase  {
 		LoggerLoad.info("enter arrayselection");
 		arraysele.click();
 	}
-	public void alert() {
-		//alertele.getText();
+	public String alert() {
+		return alertele.getText();
 	}
 	public void modulegtstarted() {
 		moduleele.click();

@@ -23,11 +23,10 @@ public class Hooks {
 		driversetup.getDriver();
 		LoggerLoad.info("getdriver");
 	}
-	
-	 
-	 @After
+		 
+	 @After(order=0)
 	    public static void tearDown(Scenario scenario) {
-	 
+		 LoggerLoad.info("enter after hook");
 	        if(scenario.isFailed()) {
 	            final byte[] screenshot = ((TakesScreenshot)driversetup.getDriver()).getScreenshotAs(OutputType.BYTES);
 	            scenario.attach(screenshot, "image/png", scenario.getName()); 

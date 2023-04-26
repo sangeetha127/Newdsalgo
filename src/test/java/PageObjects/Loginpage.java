@@ -46,5 +46,10 @@ public class Loginpage extends Combase{
 		loginbtn.click();
 		return alertmsg.getText();
 	}
+	
+	public String loginalertdismsg()
+	{
+		return alertmsg.getText();
+	}
 
 }

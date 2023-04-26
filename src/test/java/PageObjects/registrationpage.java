@@ -30,7 +30,7 @@ public class registrationpage extends Combase {
 
 	public void regbtnclk() {
 		registerbtn.click();
-
+		
 	}
 
 
@@ -40,6 +40,12 @@ public class registrationpage extends Combase {
 		passwordtxt.sendKeys(pswrd);
 		passwordcnftxt.sendKeys(pswrdcnf);
 	}
+	
+	public String alertdismsg() {
+		return alertmsg.getText();
+
+	}
+	
 }
 
 

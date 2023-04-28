@@ -25,7 +25,7 @@ Feature: feature to test new user registration
     Given user click registration link
     When user enter username,password,confirm password from given "<sheetname>" and <rowno>
     Then user click register button with expected message
-
+    
   Examples:
 |sheetname |rowno |
 |Sheet1    |0     |
@@ -39,3 +39,9 @@ Feature: feature to test new user registration
 |Sheet1    |8     |
 |Sheet1    |9     |
 |Sheet1    |10    |
+
+@tag5
+  Scenario: user navigate to loginpage and validate signout
+   Given user navigate to login page
+   Then click sign out
+   

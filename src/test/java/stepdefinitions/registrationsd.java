@@ -5,9 +5,6 @@ import java.io.IOException;
 import java.time.Duration;
 import java.util.List;
 import java.util.Map;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -16,10 +13,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import DriverFactory.*;
-import stepdefinitions.Combase;
-import PageObjects.registrationpage;
-import io.cucumber.core.backend.TestCaseState;
-import io.cucumber.java.Scenario;
+import PageObjects.*;
 import io.cucumber.java.en.*;
 import utilities.*;
 
@@ -33,10 +27,9 @@ public class registrationsd extends Combase {
 	
 	@Given("user click registration link")
 	public void user_click_registration_link() throws InterruptedException  {
-		
 		//driver.switchTo().window(driver.getWindowHandle());
-		
-		registerPage = new registrationpage(driversetup.getDriver());
+		registerPage = new registrationpage(driver);
+		loginpage = new Loginpage(driver);
 		registerPage.registrationlink();
 		Thread.sleep(2000);
 	}
@@ -54,7 +47,8 @@ public class registrationsd extends Combase {
 		expmsg=testData.get(int1).get("expectedmsg");
 		System.out.println(User_name);
 		System.out.println(Pass_word);
-		System.out.println( Pass_wordcnf);
+		System.out.println(Pass_wordcnf);
+		System.out.println(expmsg);
 		registerPage.readusernameandpassword(User_name, Pass_word,Pass_wordcnf);
 		rowval=int1;
 		LoggerLoad.info("Registration credentials entered");
@@ -66,12 +60,8 @@ public class registrationsd extends Combase {
 		registerPage.regbtnclk();
 		
 		String actmsg="";
-		WebElement hidtext=new WebDriverWait(driver,Duration.ofSeconds(10)).until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//input[@name='username']"))));
-		System.out.println(hidtext.getAttribute("validationMessage"));
-		LoggerLoad.info(hidtext.getAttribute("validationMessage"));
-		/*Scenario scenario;
-		
 
+		/*Scenario scenario;
 		if(scenario.isFailed()) {
 			final byte[] screenshot = ((TakesScreenshot) driversetup.getDriver()).getScreenshotAs(OutputType.BYTES);
 			scenario.attach(screenshot, "image/png", scenario.getName()); 
@@ -79,19 +69,38 @@ public class registrationsd extends Combase {
 
 		//driversetup.tearDown();
 		if (rowval<=2) {
+			WebElement hidtext=new WebDriverWait(driver,Duration.ofSeconds(10)).until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//input[@name='username']"))));
+			LoggerLoad.info(hidtext.getAttribute("validationMessage"));
 			actmsg=hidtext.getAttribute("validationMessage");
+			assertEquals(actmsg,expmsg);
 		}
-		else if(rowval==9) {
+		else if ((rowval>2) && (rowval<10)){
+			actmsg=registerPage.alertdismsg();
+			assertEquals(actmsg,expmsg);
+		}
+		else if(rowval==10) {
 			actmsg=loginpage.loginalertdismsg();
+			//assertEquals(actmsg,expmsg);
+			Thread.sleep(1000);
+			System.out.println(loginpage.loginalertdismsg());
+			
+			
+			//loginpage.signinlinkclk();
 		}
-		
-		else
-		{
-		actmsg=registerPage.alertdismsg();
-		}
-		LoggerLoad.info("Expected Message - Excel Sheet :  " +expmsg);
+		/*.info("Expected Message - Excel Sheet :  " +expmsg);
 		LoggerLoad.info("Actual Message :  "+actmsg);
-		assertEquals(actmsg,expmsg);
-		Thread.sleep(2000);
+		Thread.sleep(2000);*/
+	}
+	@Given("user navigate to login page")
+	public void user_navigate_to_login_page() throws InterruptedException {
+		driver.getTitle();
+		Thread.sleep(1000);
+		LoggerLoad.info(driver.getTitle());
+		loginpage = new Loginpage(driver);
+	}
+
+	@Then("click sign out")
+	public void click_sign_out() {
+		loginpage.signoutclk();
 	}
 }

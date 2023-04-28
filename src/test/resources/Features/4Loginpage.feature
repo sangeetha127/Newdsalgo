@@ -1,5 +1,6 @@
+
  Feature: user enter valid and invalid credentials for login
- @tag5
+ @tag6
  Scenario Outline: User on login page and login with invalid and valid inputs from Excel "<Sheetname>" and 
    <RowNumber>
 

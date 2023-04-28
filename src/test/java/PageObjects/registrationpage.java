@@ -33,7 +33,6 @@ public class registrationpage extends Combase {
 		
 	}
 
-
 	public void readusernameandpassword(String uname,String pswrd,String pswrdcnf) throws IOException, InterruptedException {
 
 		usrnametxt.sendKeys(uname);

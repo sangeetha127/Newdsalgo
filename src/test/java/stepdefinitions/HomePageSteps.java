@@ -38,8 +38,8 @@ public class HomePageSteps extends Combase {
 
 	@When("User click on one of the module from home page")
 	public void user_click_on_one_of_the_module_from_home_page() throws InterruptedException {
-	   //DriverFactory.NavBack();
-		homepage = new HomePage(driversetup.getDriver());
+	   driversetup.NavBack();
+	   homepage = new HomePage(driversetup.getDriver());
 	   homepage.modulegtstarted();
 	   Thread.sleep(2000);
 	}

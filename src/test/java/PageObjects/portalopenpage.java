@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import stepdefinitions.Combase;
+import utilities.elementutilities;
 
 public class portalopenpage extends Combase {
 
@@ -16,6 +17,7 @@ public class portalopenpage extends Combase {
 	  }	
 	
 	public void clickgetstartedbtn() {
+		//eleuti.buttonclk((getstartedbtn);
 		getstartedbtn.click();
 	}
 	public  String gethomepagetitle() {

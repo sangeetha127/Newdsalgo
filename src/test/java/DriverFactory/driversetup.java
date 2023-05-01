@@ -2,9 +2,14 @@ package DriverFactory;
 
 import java.time.Duration;
 import java.util.ResourceBundle;
+
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 import utilities.LoggerLoad;
 
@@ -58,7 +63,6 @@ public class driversetup {
 		getDriver().navigate().back();
 	}
 	public static WebDriver getDriver() {
-		LoggerLoad.info("enter getdriver");
 		//return driver;
 		return tlDriver.get();
 	}
@@ -76,6 +80,12 @@ public class driversetup {
 			getDriver().quit();
 		}
 		driver = null;
+	
+		
+	}
+	
+	public static void  getErrorText() throws InterruptedException {
+		
 	}
 
 }

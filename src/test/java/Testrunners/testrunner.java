@@ -16,7 +16,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 		monochrome=true,  //console output color and eliminate junk characters
 		//dryRun=false, // (=true)->compilation purpose mostly to chk stepdefinitions are implemented or not
 		//tags = "@tag1 or @tag2 or @tag3 or @tag4 or @tag5", //tags from feature file
-		tags = "@tag6", //tags from feature file
+		tags = "@tag6 or @tag7 or @tag8 or @tag9 or @tag10 or @tag11 or @tag12 or @tag13 or @tag14", //tags from feature file
 		features = {"src/test/resources/Features"}, //location of feature files, we can give this way-->".//features//"
 		glue= {"stepdefinitions","Allhooks"}) //location of step definition files, gives granural level of info in test result
 

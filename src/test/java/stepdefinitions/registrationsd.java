@@ -9,6 +9,7 @@ import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -91,6 +92,7 @@ public class registrationsd extends Combase {
 		LoggerLoad.info("Actual Message :  "+actmsg);
 		Thread.sleep(2000);*/
 	}
+	
 	@Given("user navigate to login page")
 	public void user_navigate_to_login_page() throws InterruptedException {
 		driver.getTitle();

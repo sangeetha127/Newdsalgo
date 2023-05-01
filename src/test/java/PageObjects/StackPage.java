@@ -52,8 +52,7 @@ public class StackPage extends Combase{
 		tryherebtn.click();
 	}
 	
-	public void readcode(String pycode)
-	{
+	public void readcode(String pycode)	{
 		textediboxele.sendKeys(pycode);
 	}
 	

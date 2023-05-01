@@ -201,7 +201,7 @@ public class Stacksteps extends Combase {
 	
 	@Given("user select practice questions")
 	public void user_select_practice_questions() throws InterruptedException {
-		LoggerLoad.info("selectapplications in stack");
+		LoggerLoad.info("select practice questions in stack");
 		stackpage.menuselection(4);		
 		Thread.sleep(3000);
 	}

@@ -69,4 +69,17 @@ public class HomePage extends Combase  {
 	public void modulegtstarted() {
 		moduleele.click();
 	}
+	public void selectstack() {
+		stackele.click();
+	}
+	public void selectqueue() {
+		queueele.click();
+	}
+	public void selectlinklist() {
+		linkedlistele.click();
+	}
+	public void selectgraph() {
+		graphele.click();
+	}
+	
 }

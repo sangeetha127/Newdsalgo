@@ -22,7 +22,7 @@ import utilities.LoggerLoad;
 
 public class Stacksteps extends Combase {
 		
-	String excelpath = ".\\\\src/test/resources/ExcelData/PythonExcel.xlsx";
+	String excelpath = ".\\src/test/resources/ExcelData/PythonExcel.xlsx";
 	String output="";
 	String expmsg;
 	String actmsg;
@@ -37,13 +37,14 @@ public class Stacksteps extends Combase {
 		homepage = new HomePage(driver);
 		
 		homepage.dropDownclk();
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 	}
 
 	@When("user select stack option")
 	public void user_select_stack_option() throws InterruptedException {
-		stackpage.selectstack();
-		Thread.sleep(2000);
+		//stackpage.selectstack();
+		homepage.selectstack();
+		Thread.sleep(1000);
 		LoggerLoad.info("select stack menu from dropdown");
 	}
 
@@ -51,14 +52,14 @@ public class Stacksteps extends Combase {
 	public void user_selct_operations_in_stack() throws InterruptedException {
 		LoggerLoad.info("select operations in stack");
 		stackpage.menuselection(1);		
-		Thread.sleep(3000);
+		Thread.sleep(1000);
 		
 	}
 //	operations in stack page
 	@Given("user click on Try Here button")
 	public void user_click_on_try_here_button() throws InterruptedException {
 		stackpage.trybtnclk();
-		Thread.sleep(3000);
+		Thread.sleep(1000);
 		LoggerLoad.info("try button click");
 	}
 
@@ -81,7 +82,7 @@ public class Stacksteps extends Combase {
 	public void user_click_run_button() throws InterruptedException {
 		stackpage.runbtnclk();
 		LoggerLoad.info("run button click");
-		Thread.sleep(3000);
+		
 	}
 	@Then("user should see output")
 	public void user_should_see_output() {
@@ -118,7 +119,7 @@ public class Stacksteps extends Combase {
 			   System.out.println("Alert exists");
 		alert.accept();
 		driversetup.NavBack();
-		Thread.sleep(3000);
+		
 	}
 	
 // implementation page
@@ -127,83 +128,24 @@ public class Stacksteps extends Combase {
 	public void user_select_implementation() throws InterruptedException {
 		LoggerLoad.info("select implementation in stack");
 		stackpage.menuselection(2);		
-		Thread.sleep(3000);
+		Thread.sleep(1000);
 	}
 	
-	@When("user enter valid python code for implenetation from given {string} and {int}")
-	public void user_enter_valid_python_code_for_implenetation_from_given_and(String string, Integer int1) throws InvalidFormatException, IOException {
-		ExcelReader reader = new ExcelReader();
-		LoggerLoad.info("User enter valid code for implementation");
-		List<Map<String, String>> testData=reader.getData(excelpath,"Sheet1");
-		//LoggerLoad.info("excel list size : " +testData.size());
-		String pythoncode=testData.get(int1).get("code"); // Column heading
-		output=testData.get(int1).get("result"); // Column heading
-
-		expmsg=output;
-		System.out.println(pythoncode);
-		System.out.println(output);
-	
-		stackpage.readcode(pythoncode);	
-	}
-
-	@When("user enter invalid python code for implenetation from given {string} and {int}")
-	public void user_enter_invalid_python_code_for_implenetation_from_given_and(String string, Integer int1) throws InvalidFormatException, IOException {
-		ExcelReader reader = new ExcelReader();
-		LoggerLoad.info("User enter invalid code for implementation");
-		List<Map<String, String>> testData=reader.getData(excelpath,"Sheet1");
-		String pythoncode=testData.get(int1).get("code"); // Column heading
-		output=testData.get(int1).get("result"); // Column heading
-
-		expmsg=output;
-		System.out.println(pythoncode);
-		System.out.println(output);
-	
-		stackpage.readcode(pythoncode);
-	}
 
 //applications
 	@Given("user select applications")
 	public void user_select_applications() throws InterruptedException {
 		LoggerLoad.info("selectapplications in stack");
 		stackpage.menuselection(3);		
-		Thread.sleep(3000);
+		Thread.sleep(1000);
 	}
 
-	@When("user enter valid python code for applications from given {string} and {int}")
-	public void user_enter_valid_python_code_for_applications_from_given_and(String string, Integer int1) throws InvalidFormatException, IOException {
-		ExcelReader reader = new ExcelReader();
-		LoggerLoad.info("User enter valid code for applications");
-		List<Map<String, String>> testData=reader.getData(excelpath,"Sheet1");
-		//LoggerLoad.info("excel list size : " +testData.size());
-		String pythoncode=testData.get(int1).get("code"); // Column heading
-		output=testData.get(int1).get("result"); // Column heading
-
-		expmsg=output;
-		System.out.println(pythoncode);
-		System.out.println(output);
-	
-		stackpage.readcode(pythoncode);	
-	}
-
-	@When("user enter invalid python code for applicatons from given {string} and {int}")
-	public void user_enter_invalid_python_code_for_applicatons_from_given_and(String string, Integer int1) throws InvalidFormatException, IOException {
-		ExcelReader reader = new ExcelReader();
-		LoggerLoad.info("User enter invalid code for applications");
-		List<Map<String, String>> testData=reader.getData(excelpath,"Sheet1");
-		String pythoncode=testData.get(int1).get("code"); // Column heading
-		output=testData.get(int1).get("result"); // Column heading
-
-		expmsg=output;
-		System.out.println(pythoncode);
-		System.out.println(output);
-		stackpage.readcode(pythoncode);
-	}
 	
 	@Given("user select practice questions")
 	public void user_select_practice_questions() throws InterruptedException {
 		LoggerLoad.info("select practice questions in stack");
 		stackpage.menuselection(4);		
-		Thread.sleep(3000);
+		Thread.sleep(1000);
 	}
 
 	@Given("navigate back to login page")

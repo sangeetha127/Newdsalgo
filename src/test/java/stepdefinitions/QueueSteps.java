@@ -23,7 +23,7 @@ import utilities.LoggerLoad;
 
 public class QueueSteps extends Combase {
 
-	String excelpath = ".\\\\src/test/resources/ExcelData/PythonExcel.xlsx";
+	String excelpath = ".\\src/test/resources/ExcelData/PythonExcel.xlsx";
 	String output="";
 	String expmsg;
 	String actmsg;
@@ -35,13 +35,14 @@ public class QueueSteps extends Combase {
 	public void user_able_to_click_on_dropdown_for_queue() throws InterruptedException {
 		homepage = new HomePage(driver);
 		homepage.dropDownclk();
-		Thread.sleep(2000);   
+		Thread.sleep(1000);   
 	}
 
 	@When("user select queue option")
 	public void user_select_queue_option() throws InterruptedException {
-		queuepage.selectqueue();
-		Thread.sleep(2000);
+		//queuepage.selectqueue();
+		homepage.selectqueue();
+		Thread.sleep(1000);
 		LoggerLoad.info("select Queue menu from dropdown");	   
 	}
 
@@ -49,7 +50,7 @@ public class QueueSteps extends Combase {
 	public void user_select_queue_in_python() throws InterruptedException {
 		LoggerLoad.info("select queuein python");
 		queuepage.queuemenuselection(1);		
-		Thread.sleep(3000);   
+		Thread.sleep(1000);   
 	}
 
 	@Given("user click on Try Here button in queue")
@@ -116,108 +117,29 @@ public class QueueSteps extends Combase {
 	public void user_select_using_collections() throws InterruptedException {
 		LoggerLoad.info("select using collections");
 		queuepage.queuemenuselection(2);		
-		Thread.sleep(3000); 	    
-	}
-
-	@When("user enter valid code for using collections from given {string} and {int}")
-	public void user_enter_valid_code_for_using_collections_from_given_and(String string, Integer int1) throws InvalidFormatException, IOException {
-		ExcelReader reader = new ExcelReader();
-		LoggerLoad.info("User enter valid code for operations in stack");
-		List<Map<String, String>> testData=reader.getData(excelpath,"Sheet1");
-		String pythoncode=testData.get(int1).get("code"); // Column heading
-		output=testData.get(int1).get("result"); // Column heading
-		expmsg=output;
-		System.out.println(pythoncode);
-		System.out.println(output);
-		queuepage.queuereadcode(pythoncode); 
-	}
-
-	@When("user enter invalid code for using collections from given {string} and {int}")
-	public void user_enter_invalid_code_for_using_collections_from_given_and(String string, Integer int1) throws InvalidFormatException, IOException {
-		ExcelReader reader = new ExcelReader();
-		LoggerLoad.info("User enter valid code for operations in stack");
-		List<Map<String, String>> testData=reader.getData(excelpath,"Sheet1");
-		String pythoncode=testData.get(int1).get("code"); // Column heading
-		output=testData.get(int1).get("result"); // Column heading
-		expmsg=output;
-		System.out.println(pythoncode);
-		System.out.println(output);
-		queuepage.queuereadcode(pythoncode);	    
+		Thread.sleep(1000); 	    
 	}
 
 	@Given("user select using array page")
 	public void user_select_using_array_page() throws InterruptedException {
 		LoggerLoad.info("select using arrays");
 		queuepage.queuemenuselection(3);		
-		Thread.sleep(3000); 	    
-	}
-
-	@When("user enter valid python code for using array from given {string} and {int}")
-	public void user_enter_valid_python_code_for_using_array_from_given_and(String string, Integer int1) throws InvalidFormatException, IOException {
-		ExcelReader reader = new ExcelReader();
-		LoggerLoad.info("User enter valid code for operations in stack");
-		List<Map<String, String>> testData=reader.getData(excelpath,"Sheet1");
-		String pythoncode=testData.get(int1).get("code"); // Column heading
-		output=testData.get(int1).get("result"); // Column heading
-		expmsg=output;
-		System.out.println(pythoncode);
-		System.out.println(output);
-		queuepage.queuereadcode(pythoncode);	    
-	}
-
-	@When("user enter invalid python code for using array from given {string} and {int}")
-	public void user_enter_invalid_python_code_for_using_array_from_given_and(String string, Integer int1) throws InvalidFormatException, IOException {
-		ExcelReader reader = new ExcelReader();
-		LoggerLoad.info("User enter valid code for operations in stack");
-		List<Map<String, String>> testData=reader.getData(excelpath,"Sheet1");
-		String pythoncode=testData.get(int1).get("code"); // Column heading
-		output=testData.get(int1).get("result"); // Column heading
-		expmsg=output;
-		System.out.println(pythoncode);
-		System.out.println(output);
-		queuepage.queuereadcode(pythoncode);	    
+		Thread.sleep(1000); 	    
 	}
 
 	@Given("user select queue operation page")
 	public void user_select_queue_operation_page() throws InterruptedException {
 		LoggerLoad.info("select queue operation");
 		queuepage.queuemenuselection(4);		
-		Thread.sleep(3000);     
+		Thread.sleep(1000);     
 	}
 
-	@When("user enter valid python code for queue operation from given {string} and {int}")
-	public void user_enter_valid_python_code_for_queue_operation_from_given_and(String string, Integer int1) throws InvalidFormatException, IOException {
-		ExcelReader reader = new ExcelReader();
-		LoggerLoad.info("User enter valid code for operations in stack");
-		List<Map<String, String>> testData=reader.getData(excelpath,"Sheet1");
-		String pythoncode=testData.get(int1).get("code"); // Column heading
-		output=testData.get(int1).get("result"); // Column heading
-		expmsg=output;
-		System.out.println(pythoncode);
-		System.out.println(output);
-		queuepage.queuereadcode(pythoncode);    
-	}
-
-	@When("user enter invalid python code for queue operation from given {string} and {int}")
-	public void user_enter_invalid_python_code_for_queue_operation_from_given_and(String string, Integer int1) throws InvalidFormatException, IOException {
-		ExcelReader reader = new ExcelReader();
-		LoggerLoad.info("User enter valid code for operations in stack");
-		List<Map<String, String>> testData=reader.getData(excelpath,"Sheet1");
-		String pythoncode=testData.get(int1).get("code"); // Column heading
-		output=testData.get(int1).get("result"); // Column heading
-
-		expmsg=output;
-		System.out.println(pythoncode);
-		System.out.println(output);
-
-		queuepage.queuereadcode(pythoncode);	    
-	}
 
 	@Given("user select practice questions in queue")
 	public void user_select_practice_questions_in_queue() throws InterruptedException {
 		LoggerLoad.info("select practice questions in queue");
 		queuepage.queuemenuselection(5);		
-		Thread.sleep(3000);	   
+		Thread.sleep(1000);	   
 	}
 
 	@Given("navigate back to login page from queue")

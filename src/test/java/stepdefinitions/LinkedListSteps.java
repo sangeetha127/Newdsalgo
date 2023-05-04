@@ -1,5 +1,4 @@
 package stepdefinitions;
-
 import java.io.IOException;
 import java.time.Duration;
 import java.util.List;
@@ -14,7 +13,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import DriverFactory.driversetup;
 import PageObjects.HomePage;
 import PageObjects.Lnklist;
-import PageObjects.Loginpage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -22,31 +20,12 @@ import io.cucumber.java.en.When;
 import utilities.ExcelReader;
 import utilities.LoggerLoad;
 
-public class LinkedListSteps extends Combase {
-
-	WebDriver driver = driversetup.getDriver();
+public class LinkedListSteps extends Combase{
+WebDriver driver = driversetup.getDriver();
 	
-	String excelpath = ".\\src/test/resources/ExcelData/pythoncodeData.xlsx";
-
+	String excelpath = ".\\src/test/resources/ExcelData/PythonExcel.xlsx";
+	 Lnklist linkedlistpage = new Lnklist(driver);
 	String expmsg;
-
-	@Given("The user is on signIn Page of DSAlgo portal")
-	public void the_user_is_on_sign_in_page_of_ds_algo_portal() {
-
-		// driver = driversetup.getDriver();
-		loginpage = new Loginpage(driver);
-		driversetup.openPage("https://dsportalapp.herokuapp.com/login");
-	}
-
-	@When("user enter valid username {string} and password {string}")
-	public void user_enter_valid_username_and_password(String uname, String password) {
-		loginpage.enternamepasswrd(uname, password, driver);
-	}
-
-	@Then("user click on login button")
-	public void user_click_on_login_button() {
-		loginpage.loginbtnclk();
-	}
 
 	@Given("The user is in the Home page after logged in")
 	public void the_user_is_in_the_home_page_after_logged_in() {
@@ -58,18 +37,18 @@ public class LinkedListSteps extends Combase {
 		homepage = new HomePage(driver);
 		homepage.dropDownclk();
 		LoggerLoad.info("Dropdown got clicked");
-		homepage.pickLinkedlist();
 	}
 
 	@Then("The user should be directed to Linked List Page")
 	public void the_user_should_be_directed_to_linked_list_page() {
 		LoggerLoad.info("user is in Linked list page");
-
+		//linkedlistpage.selectlinklist();
+		homepage.selectlinklist();
 	}
 
 	@And("The user clicks on {string} link")
 	public void the_user_clicks_on_link(String string) {
-		 linkedlistpage = new Lnklist(driver);
+		
 		linkedlistpage.introOfLinkedlist();
 		LoggerLoad.info(string + " link got clicked");
 	}
@@ -123,7 +102,7 @@ public class LinkedListSteps extends Combase {
 		ExcelReader reader = new ExcelReader();
 		LoggerLoad.info("User is in TryEditor page of LinkedList Module");
 		List<Map<String, String>> testData = reader.getData(excelpath, "Sheet1");
-		String pyCode = testData.get(row).get("pythoncode"); // Column heading
+		String pyCode = testData.get(row).get("code"); // Column heading
 		String output = testData.get(row).get("result"); // Column heading
 		expmsg = output;
 		
@@ -152,7 +131,7 @@ public class LinkedListSteps extends Combase {
 		ExcelReader reader = new ExcelReader();
 		LoggerLoad.info("User is in TryEditor page of LinkedList Module");
 		List<Map<String, String>> testData = reader.getData(excelpath, "Sheet1");
-		String pyCode = testData.get(row).get("pythoncode"); // Column heading
+		String pyCode = testData.get(row).get("code"); // Column heading
 		String output = testData.get(row).get("result"); // Column heading
 		expmsg = output;
 		
@@ -226,6 +205,4 @@ public class LinkedListSteps extends Combase {
 	    LoggerLoad.info("User been Navigated back to Main page of LinkedList");
 	    
 	}
-
-	
 }

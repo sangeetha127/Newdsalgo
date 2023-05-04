@@ -30,9 +30,9 @@ public class StackPage extends Combase{
 		PageFactory.initElements(driver,this);
 	}
 	
-	public void selectstack() {
+	/*public void selectstack() {
 		stackele.click();
-	}
+	}*/
 	public void  menuselection(int menuindex) {
 		switch (menuindex) {
 		case 1:operinstack.click();

@@ -22,9 +22,9 @@ public class QueuePage extends Combase {
 		PageFactory.initElements(driver,this);
 	}
 	
-	public void selectqueue() {
+	/*public void selectqueue() {
 		queueele.click();
-	}
+	}*/
 	public void  queuemenuselection(int menuindex) {
 		switch (menuindex) {
 		case 1:queueinpythonele.click();

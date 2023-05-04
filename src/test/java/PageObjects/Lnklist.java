@@ -1,5 +1,4 @@
 package PageObjects;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -8,13 +7,16 @@ import org.openqa.selenium.support.PageFactory;
 import stepdefinitions.Combase;
 import utilities.LoggerLoad;
 
-public class Lnklist extends Combase {
+public class Lnklist extends Combase{
+	
 	public Lnklist(WebDriver driver) {
 		LoggerLoad.info("Entered into LinkedList Module");
 		PageFactory.initElements(driver, this);
 		driver.switchTo().window(driver.getWindowHandle());
 	}
-
+	
+	@FindBy (xpath="//a[text()='Linked List']") WebElement linklistele;
+	
 	@FindBy(xpath = "//h5[text()=\"Linked List\"]/../a")
 	WebElement linkedlistGetStarted;
 	@FindBy(xpath = "//body/div[2]/ul/a")
@@ -50,6 +52,9 @@ public class Lnklist extends Combase {
 	@FindBy(linkText = "Practice Questions")
 	WebElement practiceQs;
 
+	/*public void selectlinklist() {
+		linklistele.click();
+	}*/
 	public void clkLinkedlistGetStarted() {
 		linkedlistGetStarted.click();
 	}

@@ -20,7 +20,7 @@
 Feature: feature to test new user registration
   I want to use this template for my feature file
 
-  @tag4
+  @tag3
   Scenario Outline: user navigate to registration page
     Given user click registration link
     When user enter username,password,confirm password from given "<sheetname>" and <rowno>
@@ -40,7 +40,7 @@ Feature: feature to test new user registration
 |Sheet1    |9     |
 |Sheet1    |10    |
 
-@tag5
+@tag3
   Scenario: user navigate to loginpage and validate signout
    Given user navigate to login page
    Then click sign out

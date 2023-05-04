@@ -1,9 +1,5 @@
+@1
 Feature: Evaluate Linkedlist Module
-    @tag6
-	Scenario: User is Logged in to DSAlgo portal
-	Given The user is on signIn Page of DSAlgo portal
-	When user enter valid username "nitha" and password "nithasdet109"
-	Then user click on login button
 	
 	@tag6
 	Scenario:  User Navigating to LinkedList Page

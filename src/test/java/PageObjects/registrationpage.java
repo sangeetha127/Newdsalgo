@@ -25,16 +25,14 @@ public class registrationpage extends Combase {
 	  }	
 	public void registrationlink() throws InterruptedException{
 		reglink.click();
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
 	}
 
 	public void regbtnclk() {
 		registerbtn.click();
-		
 	}
 
 	public void readusernameandpassword(String uname,String pswrd,String pswrdcnf) throws IOException, InterruptedException {
-
 		usrnametxt.sendKeys(uname);
 		passwordtxt.sendKeys(pswrd);
 		passwordcnftxt.sendKeys(pswrdcnf);
@@ -42,7 +40,6 @@ public class registrationpage extends Combase {
 	
 	public String alertdismsg() {
 		return alertmsg.getText();
-
 	}
 	
 }

@@ -40,15 +40,12 @@ public class Arrays extends Combase {
 	@FindBy(xpath = "//a[text()='Squares of  a Sorted Array']") WebElement Question4;
 	@FindBy(xpath = "//span[@role='presentation']") WebElement Quetxtbox;
 	
-	
-	
 	public Arrays (WebDriver driver)
 	{
 		PageFactory.initElements(driver, this);
 	}
 
 	public void ArrayGetStarted() {
-
 		arrayGetStarted.click();
 	}
 
@@ -61,7 +58,6 @@ public class Arrays extends Combase {
 	}
 
 	public void Txtarea(String pythoncode,String output) {
-
 		textbox.sendKeys(pythoncode);
 		System.out.println(pythoncode);
 		//Boolean isRequired = false;
@@ -69,7 +65,6 @@ public class Arrays extends Combase {
 
 	}
 	public void textclear() {
-		
 		driver.navigate().back();
 	}
 
@@ -77,13 +72,10 @@ public class Arrays extends Combase {
 		runbutton.click();
 	}
 	public String outPut() {
-		
-	return output.getText(); 
-		
+		return output.getText(); 
 	}
 	public String gethomepageTitle() {
 		return "NumpyNinja";
-
 	}
 	public void arraysList() {
 		Arraysusinglist.click();

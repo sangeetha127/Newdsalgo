@@ -12,7 +12,7 @@ public class Loginpage extends Combase{
 
 
 	@FindBy(linkText="Sign in") WebElement signinlink;
-	@FindBy(id="id_username") WebElement usrnametxt;
+	@FindBy(id="id_username") WebElement usernametxt;
 	@FindBy(id="id_password") WebElement passwrdtxt;
 	@FindBy(xpath="//input[@value='Login']") WebElement loginbtn;
 	@FindBy(xpath="//div[@role='alert']") WebElement alertmsg;
@@ -25,7 +25,7 @@ public class Loginpage extends Combase{
 	
 	public boolean enternamepasswrd(String givenusrname,String givenpasswrd)
 	{
-		usrnametxt.sendKeys(givenusrname);
+		usernametxt.sendKeys(givenusrname);
 		passwrdtxt.sendKeys(givenpasswrd);
 		Boolean isRequired=false;
 		

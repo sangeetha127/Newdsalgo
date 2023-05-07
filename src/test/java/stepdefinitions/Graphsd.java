@@ -34,20 +34,20 @@ public class Graphsd extends Combase {
 	@Given("user able to click on dropdown for Graph")
 	public void user_able_to_click_on_dropdown_for_graph() throws InterruptedException {
 		homepage = new HomePage(driver);
-		homepage.dropDownclk();
-		Thread.sleep(1000);	
+		homepage.dropDownclk();	
 	}
 
 	@When("user select Graph option")
 	public void user_select_graph_option() throws InterruptedException {
 		//graphpage.dropdownOption();
-		homepage.selectqueue();
-		Thread.sleep(1000);	
+		homepage.selectgraph();	
+		LoggerLoad.info("Enter Graph Page");
 	}
 
 	@When("user clicks on Graph topic")
 	public void user_clicks_on_graph_topic() {
 		graphpage.graphHomepage();
+		LoggerLoad.info("Enter Graph topic");
 	}
 
 	@Given("click Try here button and navigate to tryEditor page")
@@ -75,7 +75,6 @@ public class Graphsd extends Combase {
 	@Then("User should be presented with run output")
 	public void user_should_be_presented_with_run_output() {
 		actmsg=graphpage.output();
-		System.out.println(actmsg);
 		driver.navigate().back();
 	}
 
@@ -96,13 +95,13 @@ public class Graphsd extends Combase {
 	@Given("user select graph representations")
 	public void user_select_graph_representations() {
 		graphpage.ClickgraphRepresentations();
+		LoggerLoad.info("graph representations");
 	}
 
 	@Given("user select practice questions from graph")
 	public void user_select_practice_questions_from_graph() throws InterruptedException {
 		LoggerLoad.info("select practice questions in graph");
 		graphpage.ClickpracticeQuestions();		
-		Thread.sleep(1000);
 	}
 
 	@Given("user navigate back and sign out from project")
@@ -110,6 +109,8 @@ public class Graphsd extends Combase {
 		//driversetup.NavBack();
 		loginpage = new Loginpage(driver);
 		loginpage.signoutclk();
+		driversetup.tearDown();
+		
 	}
 
 	

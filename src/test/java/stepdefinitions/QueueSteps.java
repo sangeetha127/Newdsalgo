@@ -34,23 +34,20 @@ public class QueueSteps extends Combase {
 	@Given("user able to click on dropdown for queue")
 	public void user_able_to_click_on_dropdown_for_queue() throws InterruptedException {
 		homepage = new HomePage(driver);
-		homepage.dropDownclk();
-		Thread.sleep(1000);   
+		homepage.dropDownclk();  
 	}
 
 	@When("user select queue option")
 	public void user_select_queue_option() throws InterruptedException {
 		//queuepage.selectqueue();
 		homepage.selectqueue();
-		Thread.sleep(1000);
 		LoggerLoad.info("select Queue menu from dropdown");	   
 	}
 
 	@When("user select queue in python")
 	public void user_select_queue_in_python() throws InterruptedException {
 		LoggerLoad.info("select queuein python");
-		queuepage.queuemenuselection(1);		
-		Thread.sleep(1000);   
+		queuepage.queuemenuselection(1);		  
 	}
 
 	@Given("user click on Try Here button in queue")
@@ -62,7 +59,7 @@ public class QueueSteps extends Combase {
 	@When("user enter valid code in queue in python from given {string} and {int}")
 	public void user_enter_valid_code_in_queue_in_python_from_given_and(String string, Integer int1) throws InvalidFormatException, IOException {
 		ExcelReader reader = new ExcelReader();
-		LoggerLoad.info("User enter valid code for operations in stack");
+		LoggerLoad.info("User enter valid code for operations in queue");
 		List<Map<String, String>> testData=reader.getData(excelpath,"Sheet1");
 		String pythoncode=testData.get(int1).get("code"); // Column heading
 		output=testData.get(int1).get("result"); // Column heading
@@ -88,7 +85,7 @@ public class QueueSteps extends Combase {
 	@When("user enter invalid code in queue in python from given {string} and {int}")
 	public void user_enter_invalid_code_in_queue_in_python_from_given_and(String string, Integer int1) throws InvalidFormatException, IOException {
 		ExcelReader reader = new ExcelReader();
-		LoggerLoad.info("User enter valid code for operations in stack");
+		LoggerLoad.info("User enter invalid code for operations in queue");
 		List<Map<String, String>> testData=reader.getData(excelpath,"Sheet1");
 		String pythoncode=testData.get(int1).get("code"); // Column heading
 		output=testData.get(int1).get("result"); // Column heading
@@ -105,41 +102,36 @@ public class QueueSteps extends Combase {
 		Alert alert =driver.switchTo().alert();
 		WebDriverWait w = new WebDriverWait(driver,Duration.ofSeconds(5));
 		if(w.until(ExpectedConditions.alertIsPresent())==null)
-			System.out.println("alert not exist");
+			LoggerLoad.info("alert not exist");
 		else
-			System.out.println("Alert exists");
+			LoggerLoad.info("Alert exists");
 		alert.accept();
-		driversetup.NavBack();
-		Thread.sleep(3000);   
+		driversetup.NavBack();  
 	}
 
 	@Given("user select using collections")
 	public void user_select_using_collections() throws InterruptedException {
-		LoggerLoad.info("select using collections");
-		queuepage.queuemenuselection(2);		
-		Thread.sleep(1000); 	    
+		LoggerLoad.info("select queue using collections");
+		queuepage.queuemenuselection(2);		    
 	}
 
 	@Given("user select using array page")
 	public void user_select_using_array_page() throws InterruptedException {
-		LoggerLoad.info("select using arrays");
-		queuepage.queuemenuselection(3);		
-		Thread.sleep(1000); 	    
+		LoggerLoad.info("select queue using arrays");
+		queuepage.queuemenuselection(3);			    
 	}
 
 	@Given("user select queue operation page")
 	public void user_select_queue_operation_page() throws InterruptedException {
 		LoggerLoad.info("select queue operation");
-		queuepage.queuemenuselection(4);		
-		Thread.sleep(1000);     
+		queuepage.queuemenuselection(4);		    
 	}
 
 
 	@Given("user select practice questions in queue")
 	public void user_select_practice_questions_in_queue() throws InterruptedException {
 		LoggerLoad.info("select practice questions in queue");
-		queuepage.queuemenuselection(5);		
-		Thread.sleep(1000);	   
+		queuepage.queuemenuselection(5);		   
 	}
 
 	@Given("navigate back to login page from queue")

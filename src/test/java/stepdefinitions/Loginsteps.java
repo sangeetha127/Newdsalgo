@@ -25,37 +25,40 @@ public class Loginsteps extends Combase {
 	String message="";
 	String actmsg="";
 	int rowval=0;
-	WebDriver driver =driversetup.getDriver();
+	WebDriver driver;
+	//WebDriver driver =driversetup.getDriver();
 	
 	@Given("The user is on signin page")
 	public void the_user_is_on_signin_page() {
+		driver =driversetup.getDriver();
+		LoggerLoad.info("Login page entered");
 		driversetup.openPage("https://dsportalapp.herokuapp.com/login");
-		loginpage = new Loginpage(driver);
+		//loginpage = new Loginpage(driver);
 		//loginpage.signoutclk();
-		loginpage.signinlinkclk();
+		//loginpage.signinlinkclk();
 	}
 
 	@When("The user enter sheet {string} and {int}")
 	public void the_user_enter_sheet_and(String string, Integer int1) throws InvalidFormatException, IOException, InterruptedException {
+		loginpage = new Loginpage(driver);
 		ExcelReader reader = new ExcelReader();
-
 		List<Map<String, String>> testdata = reader.getData(excelpath,string);
 		String username = testdata.get(int1).get("username");
 		String password = testdata.get(int1).get("password");
 		message = testdata.get(int1).get("expectedmessage");
 		rowval=int1;
-		LoggerLoad.info("User Enter username as \" " + username + " \"and Password as \" " + password + "\" ");
+		LoggerLoad.info("User name and password enter");
 
 		//if (username != null || password != null) {
 			loginpage.enternamepasswrd(username, password);
-			Thread.sleep(2000);
+			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 		//}
 	}
 
 	@Then("click login button")
 	public void click_login_button() throws InterruptedException {
+		LoggerLoad.info("User clicks on login button");
 		loginpage.loginbtnclk();
-		Thread.sleep(2000);
 		if (rowval==0) {
 			WebElement hidtext=new WebDriverWait(driver,Duration.ofSeconds(10)).until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//input[@name='password']"))));
 			LoggerLoad.info(hidtext.getAttribute("validationMessage"));
@@ -72,7 +75,6 @@ public class Loginsteps extends Combase {
 		{
 			actmsg = loginpage.loginalertdismsg();
 		}
-		LoggerLoad.info("User clicks on login button");
 		LoggerLoad.info("Expected Message - Excel Sheet :  " + message);
 		LoggerLoad.info("Actual Message :  " + actmsg);
 		assertEquals(actmsg, message);

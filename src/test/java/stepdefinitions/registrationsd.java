@@ -12,6 +12,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 
 import DriverFactory.*;
 import PageObjects.*;
@@ -22,17 +23,20 @@ public class registrationsd extends Combase {
 	String excelpath =".\\src/test/resources/ExcelData/ds-algoregistration.xlsx";
 	int rowval=0;
 	//String excelpath =".\\src/test/resources/ExcelData/dummysheet.xlsx";
-
+	String registertitle;
 	String expmsg="";
 	WebDriver driver =driversetup.getDriver();
 	
 	@Given("user click registration link")
 	public void user_click_registration_link() throws InterruptedException  {
 		//driver.switchTo().window(driver.getWindowHandle());
+		//loginpage = new Loginpage(driver);
+		LoggerLoad.info("Registration link click");
 		registerPage = new registrationpage(driver);
-		loginpage = new Loginpage(driver);
 		registerPage.registrationlink();
-		Thread.sleep(2000);
+		registertitle=driver.getTitle();
+		//System.out.println("registertitle : "+registertitle);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 	}
 
 	@When("user enter username,password,confirm password from given {string} and {int}")
@@ -46,29 +50,21 @@ public class registrationsd extends Combase {
 		String Pass_word=testData.get(int1).get("password"); // Column heading
 		String Pass_wordcnf = testData.get(int1).get("passwordconfirm");
 		expmsg=testData.get(int1).get("expectedmsg");
-		System.out.println(User_name);
+		/*System.out.println(User_name);
 		System.out.println(Pass_word);
 		System.out.println(Pass_wordcnf);
-		System.out.println(expmsg);
+		System.out.println(expmsg);*/
 		registerPage.readusernameandpassword(User_name, Pass_word,Pass_wordcnf);
 		rowval=int1;
 		LoggerLoad.info("Registration credentials entered");
-		Thread.sleep(2000);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 	}
 
 	@Then("user click register button with expected message")
 	public void user_click_register_button_with_expected_message() throws InterruptedException {
+		LoggerLoad.info("Register button click");
 		registerPage.regbtnclk();
-		
 		String actmsg="";
-
-		/*Scenario scenario;
-		if(scenario.isFailed()) {
-			final byte[] screenshot = ((TakesScreenshot) driversetup.getDriver()).getScreenshotAs(OutputType.BYTES);
-			scenario.attach(screenshot, "image/png", scenario.getName()); 
-		}   */
-
-		//driversetup.tearDown();
 		if (rowval<=2) {
 			WebElement hidtext=new WebDriverWait(driver,Duration.ofSeconds(10)).until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//input[@name='username']"))));
 			LoggerLoad.info(hidtext.getAttribute("validationMessage"));
@@ -80,23 +76,38 @@ public class registrationsd extends Combase {
 			assertEquals(actmsg,expmsg);
 		}
 		else if(rowval==10) {
+		/*	System.out.println("drivertitle : "+driver.getTitle());
+			System.out.println("registertitle : "+registertitle);
+			actmsg=registerPage.alertdismsg();
+			try {
+				assertEquals(driver.getTitle(), registertitle);
+		
+			} catch (Exception e) {
+				loginpage = new Loginpage(driver);
+				actmsg=loginpage.loginalertdismsg();
+				System.out.println(loginpage.loginalertdismsg());
+				assertEquals(actmsg,expmsg);
+				loginpage.signoutclk();	
+				loginpage.signinlinkclk();
+			}
+			//Assert.assertEquals(actmsg,expmsg);
+			assertEquals(actmsg,expmsg);*/
+			//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+			
+			
 			actmsg=loginpage.loginalertdismsg();
-			//assertEquals(actmsg,expmsg);
-			Thread.sleep(1000);
-			System.out.println(loginpage.loginalertdismsg());
 			
-			
-			//loginpage.signinlinkclk();
+			Assert.assertEquals(actmsg, expmsg);  //for demo we need to uncomment this to make a failed test case
+			loginpage.signoutclk();
+			loginpage.loginalertdismsg();
+			loginpage.signinlinkclk();
 		}
-		/*.info("Expected Message - Excel Sheet :  " +expmsg);
-		LoggerLoad.info("Actual Message :  "+actmsg);
-		Thread.sleep(2000);*/
 	}
 	
-	@Given("user navigate to login page")
+/*	@Given("user navigate to login page")
 	public void user_navigate_to_login_page() throws InterruptedException {
 		driver.getTitle();
-		Thread.sleep(1000);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 		LoggerLoad.info(driver.getTitle());
 		loginpage = new Loginpage(driver);
 	}
@@ -104,5 +115,5 @@ public class registrationsd extends Combase {
 	@Then("click sign out")
 	public void click_sign_out() {
 		loginpage.signoutclk();
-	}
+	}*/
 }

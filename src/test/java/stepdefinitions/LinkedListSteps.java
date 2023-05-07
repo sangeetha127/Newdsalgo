@@ -29,14 +29,14 @@ WebDriver driver = driversetup.getDriver();
 
 	@Given("The user is in the Home page after logged in")
 	public void the_user_is_in_the_home_page_after_logged_in() {
-		LoggerLoad.info("In HomePage");
+		//LoggerLoad.info("In HomePage");
 	}
 
 	@When("The user selecting linkedlist item from the drop down menu")
 	public void the_user_selecting_linkedlist_item_from_the_drop_down_menu() {
 		homepage = new HomePage(driver);
 		homepage.dropDownclk();
-		LoggerLoad.info("Dropdown got clicked");
+		//LoggerLoad.info("Dropdown got clicked");
 	}
 
 	@Then("The user should be directed to Linked List Page")
@@ -48,7 +48,7 @@ WebDriver driver = driversetup.getDriver();
 
 	@And("The user clicks on {string} link")
 	public void the_user_clicks_on_link(String string) {
-		
+		LoggerLoad.info(string + " link got clicked");
 		linkedlistpage.introOfLinkedlist();
 		LoggerLoad.info(string + " link got clicked");
 	}
@@ -87,7 +87,7 @@ WebDriver driver = driversetup.getDriver();
 
 	@Given("The user is in a try here page having  tryEditor with a Run button to test")
 	public void the_user_is_in_a_try_here_page_having_try_editor_with_a_run_button_to_test() {
-		LoggerLoad.info("In tryEditor page");
+		LoggerLoad.info("Linked List tryEditor page");
 		linkedlistpage = new Lnklist(driver);
 	}
 
@@ -100,7 +100,7 @@ WebDriver driver = driversetup.getDriver();
 	public void the_user_enter_valid_python_code_in_try_editor_from_sheet_and(String string, Integer row)
 			throws InvalidFormatException, IOException {
 		ExcelReader reader = new ExcelReader();
-		LoggerLoad.info("User is in TryEditor page of LinkedList Module");
+		LoggerLoad.info("User is in TryEditor page of LinkedList Module for valid");
 		List<Map<String, String>> testData = reader.getData(excelpath, "Sheet1");
 		String pyCode = testData.get(row).get("code"); // Column heading
 		String output = testData.get(row).get("result"); // Column heading
@@ -120,7 +120,7 @@ WebDriver driver = driversetup.getDriver();
 	@Then("The user should be presented with the Run output")
 	public void the_user_should_be_presented_with_the_run_output() {
 		String res = linkedlistpage.codeOutput();
-		System.out.println("result = " + res);
+		LoggerLoad.info("result = " + res);
 		driversetup.NavBack();
 
 	}
@@ -129,7 +129,7 @@ WebDriver driver = driversetup.getDriver();
 	public void the_user_enter_invalid_python_code_in_try_editor_from_sheet_and(String string, Integer row)
 			throws InvalidFormatException, IOException {
 		ExcelReader reader = new ExcelReader();
-		LoggerLoad.info("User is in TryEditor page of LinkedList Module");
+		LoggerLoad.info("User is in TryEditor page of LinkedList Module for invalid");
 		List<Map<String, String>> testData = reader.getData(excelpath, "Sheet1");
 		String pyCode = testData.get(row).get("code"); // Column heading
 		String output = testData.get(row).get("result"); // Column heading
@@ -146,9 +146,9 @@ WebDriver driver = driversetup.getDriver();
 		
 		WebDriverWait w = new WebDriverWait(driver, Duration.ofSeconds(5));
 		if (w.until(ExpectedConditions.alertIsPresent()) == null)
-			System.out.println("alert not exist");
+			LoggerLoad.info("alert not exist");
 		else
-			System.out.println("Alert exists");
+			LoggerLoad.info("Alert exists");
             alert.accept();
             driversetup.NavBack();
 	}

@@ -33,34 +33,27 @@ public class Stacksteps extends Combase {
 	@Given("user able to click on dropdown")
 	public void user_able_to_click_on_dropdown() throws InterruptedException {
 		//driversetup.openPage("https://dsportalapp.herokuapp.com/login");
-		
 		homepage = new HomePage(driver);
-		
 		homepage.dropDownclk();
-		Thread.sleep(1000);
 	}
 
 	@When("user select stack option")
 	public void user_select_stack_option() throws InterruptedException {
 		//stackpage.selectstack();
 		homepage.selectstack();
-		Thread.sleep(1000);
 		LoggerLoad.info("select stack menu from dropdown");
 	}
 
 	@When("user select operations in stack")
 	public void user_selct_operations_in_stack() throws InterruptedException {
 		LoggerLoad.info("select operations in stack");
-		stackpage.menuselection(1);		
-		Thread.sleep(1000);
-		
+		stackpage.menuselection(1);				
 	}
 //	operations in stack page
 	@Given("user click on Try Here button")
 	public void user_click_on_try_here_button() throws InterruptedException {
 		stackpage.trybtnclk();
-		Thread.sleep(1000);
-		LoggerLoad.info("try button click");
+		LoggerLoad.info("Stack try button click");
 	}
 
 	@When("user enter valid python code from given {string} and {int}")
@@ -81,7 +74,7 @@ public class Stacksteps extends Combase {
 	@When("user click run button")
 	public void user_click_run_button() throws InterruptedException {
 		stackpage.runbtnclk();
-		LoggerLoad.info("run button click");
+		LoggerLoad.info("Stack run button click");
 		
 	}
 	@Then("user should see output")
@@ -110,13 +103,13 @@ public class Stacksteps extends Combase {
 	@Then("user should get alert")
 	public void user_should_get_alert() throws InterruptedException {
 		
-		LoggerLoad.info("run button click for invalid code");
+		LoggerLoad.info("Stack run button click for invalid code");
 		 Alert alert =driver.switchTo().alert();
 		   WebDriverWait w = new WebDriverWait(driver,Duration.ofSeconds(5));
 		   if(w.until(ExpectedConditions.alertIsPresent())==null)
-			   System.out.println("alert not exist");
+			   LoggerLoad.info("alert not exist");
 		   else
-			   System.out.println("Alert exists");
+			   LoggerLoad.info("Alert exists");
 		alert.accept();
 		driversetup.NavBack();
 		
@@ -128,7 +121,6 @@ public class Stacksteps extends Combase {
 	public void user_select_implementation() throws InterruptedException {
 		LoggerLoad.info("select implementation in stack");
 		stackpage.menuselection(2);		
-		Thread.sleep(1000);
 	}
 	
 
@@ -136,8 +128,7 @@ public class Stacksteps extends Combase {
 	@Given("user select applications")
 	public void user_select_applications() throws InterruptedException {
 		LoggerLoad.info("selectapplications in stack");
-		stackpage.menuselection(3);		
-		Thread.sleep(1000);
+		stackpage.menuselection(3);	
 	}
 
 	
@@ -145,7 +136,6 @@ public class Stacksteps extends Combase {
 	public void user_select_practice_questions() throws InterruptedException {
 		LoggerLoad.info("select practice questions in stack");
 		stackpage.menuselection(4);		
-		Thread.sleep(1000);
 	}
 
 	@Given("navigate back to login page")

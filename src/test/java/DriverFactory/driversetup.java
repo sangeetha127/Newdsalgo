@@ -34,7 +34,8 @@ public class driversetup {
 
 			driver=new ChromeDriver(options);*/
 			WebDriverManager.chromedriver().setup();
-			tlDriver.set(new ChromeDriver());
+			driver=new ChromeDriver();
+			//tlDriver.set(new ChromeDriver());
 		}
 		/*else if br.equals("FIREFOX"){
 		//Firefox
@@ -54,33 +55,35 @@ public class driversetup {
 	}
 
 	public static void openPage(String url) {
+		LoggerLoad.info("current page :"+url);
 		getDriver().get(url);
 	}
-	public static String getTitle() {
+	public static String getdriverTitle() {
 		return getDriver().getTitle();
 	}
 	public static void NavBack() {
 		getDriver().navigate().back();
 	}
 	public static WebDriver getDriver() {
-		//return driver;
-		return tlDriver.get();
+		return driver;
+		//LoggerLoad.info("enter getdriver");
+		//return tlDriver.get();
 	}
 	
 	public static void setUpDriver() {
 		if (getDriver()==null) {
 			getchromeDriver();
 		}
-	}
+		}
 	
 	public static void tearDown() {
 		if(getDriver()!=null) {
 			LoggerLoad.info("enter teardown");
 			getDriver().close();
 			getDriver().quit();
+			driver=null;
 		}
-		driver = null;
-	
+		//driver = null;
 		
 	}
 	

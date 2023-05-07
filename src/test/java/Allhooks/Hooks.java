@@ -12,26 +12,27 @@ public class Hooks {
 	//private static driversetup Driverset;
 	//private static WebDriver driver;
 	
-	@Before(order=1)
+	@Before(order=0)
 	    public static void setUp() {
 		 //Driverset=new driversetup();
+		LoggerLoad.info("before hook order 0");
 		driversetup.setUpDriver();
-		 LoggerLoad.info("driver setup");
+		
 	    }
-	@Before(order=0)
+	@Before(order=1)
 	public static void setup2() {
+		LoggerLoad.info("before hook order 1");
 		driversetup.getDriver();
-		LoggerLoad.info("getdriver");
-	}
+		}
 		 
-	 @After(order=0)
+	 @After
 	    public static void tearDown(Scenario scenario) {
 		 LoggerLoad.info("enter after hook");
 	        if(scenario.isFailed()) {
 	            final byte[] screenshot = ((TakesScreenshot)driversetup.getDriver()).getScreenshotAs(OutputType.BYTES);
 	            scenario.attach(screenshot, "image/png", scenario.getName()); 
+	            driversetup.tearDown();
 	        }   
-	         
 	        //driversetup.tearDown();
 	    }
 }

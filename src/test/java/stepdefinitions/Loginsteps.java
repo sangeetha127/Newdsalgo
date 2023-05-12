@@ -59,6 +59,7 @@ public class Loginsteps extends Combase {
 	public void click_login_button() throws InterruptedException {
 		LoggerLoad.info("User clicks on login button");
 		loginpage.loginbtnclk();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		if (rowval==0) {
 			WebElement hidtext=new WebDriverWait(driver,Duration.ofSeconds(10)).until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//input[@name='password']"))));
 			LoggerLoad.info(hidtext.getAttribute("validationMessage"));

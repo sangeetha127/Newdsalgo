@@ -1,4 +1,6 @@
 package stepdefinitions;
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 
 import DriverFactory.driversetup;
@@ -16,18 +18,21 @@ public class DataStructureSteps extends Combase{
 	public void user_click_on_get_started_button_in_data_structures_module() {
 		LoggerLoad.info("Datastructures-Introduction");
 		datastrpage.getstarted();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 
 	@When("User click on Time Complexity button")
 	public void user_click_on_time_complexity_button() {
 		LoggerLoad.info("Datastructures-Introduction - Timecomplexity");
 		datastrpage.timecomplexity();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 
 	@Given("User click on practice questons")
 	public void user_click_on_practice_questons() {
 		LoggerLoad.info("Datastructures-Introduction - Practice Questions");
 		datastrpage.practicequestions();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 
 	@Given("Navigate back to data stuctures introduction page")

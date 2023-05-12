@@ -34,19 +34,22 @@ public class Graphsd extends Combase {
 	@Given("user able to click on dropdown for Graph")
 	public void user_able_to_click_on_dropdown_for_graph() throws InterruptedException {
 		homepage = new HomePage(driver);
-		homepage.dropDownclk();	
+		homepage.dropDownclk();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 
 	@When("user select Graph option")
 	public void user_select_graph_option() throws InterruptedException {
 		//graphpage.dropdownOption();
 		homepage.selectgraph();	
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		LoggerLoad.info("Enter Graph Page");
 	}
 
 	@When("user clicks on Graph topic")
 	public void user_clicks_on_graph_topic() {
 		graphpage.graphHomepage();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		LoggerLoad.info("Enter Graph topic");
 	}
 
@@ -54,6 +57,7 @@ public class Graphsd extends Combase {
 	public void click_try_here_button_and_navigate_to_try_editor_page() {
 		//graphpage.Tryhere();
 		arrays.TryHere();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 
 	@When("user enter valid python code in tryEditor from sheet {string} and {int}")
@@ -69,12 +73,14 @@ public class Graphsd extends Combase {
 		System.out.println(output);
 	
 		graphpage.Textarea(pythoncode,output);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		//arrays.Runbutton();
 	}
 
 	@Then("User should be presented with run output")
 	public void user_should_be_presented_with_run_output() {
 		actmsg=graphpage.output();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		driver.navigate().back();
 	}
 
@@ -90,17 +96,20 @@ public class Graphsd extends Combase {
 		System.out.println(pythoncode);
 		System.out.println(output);
 		graphpage. Textarea(pythoncode,output);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 
 	@Given("user select graph representations")
 	public void user_select_graph_representations() {
 		graphpage.ClickgraphRepresentations();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		LoggerLoad.info("graph representations");
 	}
 
 	@Given("user select practice questions from graph")
 	public void user_select_practice_questions_from_graph() throws InterruptedException {
 		LoggerLoad.info("select practice questions in graph");
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		graphpage.ClickpracticeQuestions();		
 	}
 

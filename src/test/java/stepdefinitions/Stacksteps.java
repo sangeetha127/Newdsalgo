@@ -35,24 +35,28 @@ public class Stacksteps extends Combase {
 		//driversetup.openPage("https://dsportalapp.herokuapp.com/login");
 		homepage = new HomePage(driver);
 		homepage.dropDownclk();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 
 	@When("user select stack option")
 	public void user_select_stack_option() throws InterruptedException {
 		//stackpage.selectstack();
 		homepage.selectstack();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		LoggerLoad.info("select stack menu from dropdown");
 	}
 
 	@When("user select operations in stack")
 	public void user_selct_operations_in_stack() throws InterruptedException {
 		LoggerLoad.info("select operations in stack");
-		stackpage.menuselection(1);				
+		stackpage.menuselection(1);	
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 //	operations in stack page
 	@Given("user click on Try Here button")
 	public void user_click_on_try_here_button() throws InterruptedException {
 		stackpage.trybtnclk();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		LoggerLoad.info("Stack try button click");
 	}
 
@@ -68,12 +72,14 @@ public class Stacksteps extends Combase {
 		System.out.println(pythoncode);
 		System.out.println(output);
 	
-		stackpage.readcode(pythoncode);		
+		stackpage.readcode(pythoncode);	
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 
 	@When("user click run button")
 	public void user_click_run_button() throws InterruptedException {
 		stackpage.runbtnclk();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		LoggerLoad.info("Stack run button click");
 		
 	}
@@ -98,6 +104,7 @@ public class Stacksteps extends Combase {
 		System.out.println(output);
 	
 		stackpage.readcode(pythoncode);		
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 
 	@Then("user should get alert")
@@ -120,7 +127,8 @@ public class Stacksteps extends Combase {
 	@Given("user select implementation")
 	public void user_select_implementation() throws InterruptedException {
 		LoggerLoad.info("select implementation in stack");
-		stackpage.menuselection(2);		
+		stackpage.menuselection(2);	
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 	
 
@@ -129,13 +137,15 @@ public class Stacksteps extends Combase {
 	public void user_select_applications() throws InterruptedException {
 		LoggerLoad.info("selectapplications in stack");
 		stackpage.menuselection(3);	
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 
 	
 	@Given("user select practice questions")
 	public void user_select_practice_questions() throws InterruptedException {
 		LoggerLoad.info("select practice questions in stack");
-		stackpage.menuselection(4);		
+		stackpage.menuselection(4);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 
 	@Given("navigate back to login page")

@@ -47,6 +47,7 @@ public class arraySteps extends Combase{
 		homepage = new HomePage(driver);
 		homepage.dropDownclk();
 		homepage.arrays();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		//arrays.ArrayGetStarted();
 	}
 
@@ -54,6 +55,7 @@ public class arraySteps extends Combase{
 	public void user_click_on_arrays_in_python_topic_and_navigate_to_arrays_in_python_page() {
 		LoggerLoad.info("Arrays - ArraysInPython");
 		arrays.ArraysInPython();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 
 	@Given("User click on Try here button on Arrays in Python page and navigate to try edidor page")
@@ -62,6 +64,7 @@ public class arraySteps extends Combase{
 		//JavascriptExecutor js =  (JavascriptExecutor)driver;
 		//js.executeScript("window.scrollBy(0,1000)");
 		arrays.TryHere();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 
 	@When("The user enter valid python code in tryEditor from sheet {string} and {int}")
@@ -81,6 +84,7 @@ public class arraySteps extends Combase{
 	public void user_click_on_run_button() throws InterruptedException {
 		LoggerLoad.info("Arrays  - Run button");
 		arrays.Runbutton();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 
 	@Then("User should be presented with run result")
@@ -88,6 +92,7 @@ public class arraySteps extends Combase{
 		String result=( arrays.outPut());
 		LoggerLoad.info("Arrays - Valid output=" +result ); 
 		arrays.textclear();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 	@When("The user enter invalid python code in tryEditor from sheet {string} and {int}")
 	public void the_user_enter_invalid_python_code_in_try_editor_from_sheet_and(String string, Integer int1) throws InvalidFormatException, IOException {
@@ -119,55 +124,65 @@ public class arraySteps extends Combase{
 	public void user_click_on_arrays_using_list_topic() {
 		LoggerLoad.info("Arrays - Arrays Using List");
 		arrays.arraysList();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 	@Given("click Try here button and navigate to try edidor page")
 	public void click_try_here_button_and_navigate_to_try_edidor_page() {
 		LoggerLoad.info("Arrays - try here"); 
 		arrays.TryHere();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 	@Given("User click on basic Operations in Lists")
 	public void user_click_on_basic_operations_in_lists() {
 		LoggerLoad.info("Arrays - basic_operations");
 		arrays.BasicOpInList();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 
 	@Given("User click on Applications of Array")
 	public void user_click_on_applications_of_array() {
 		LoggerLoad.info("Arrays - applications_of_array");
 		arrays.ApplOfArray();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 
 	@Given("User click on Practies Questions")
 	public void user_click_on_practies_questions() {
 		LoggerLoad.info("Arrays - Practice Questions");
 		arrays.PraQues();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 
 	@When("User click on Question1 its navigate to tryeditor page")
 	public void user_click_on_question1_its_navigate_to_tryeditor_page() {
 		LoggerLoad.info("Arrays - Practice Questions1");
 		arrays.que1();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 
 	@When("User clear the tryeditor textbox")
 	public void user_clear_the_tryeditor_textbox() throws InterruptedException {
 		arrays.txteditorclr();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		}
 	@When("User click on Question2 its navigate to tryeditor page")
 	public void user_click_on_question2_its_navigate_to_tryeditor_page() {
 		LoggerLoad.info("Arrays - Practice Questions2");
 		arrays.que2();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 
 	@When("User click on Question3 its navigate to tryeditor page")
 	public void user_click_on_question3_its_navigate_to_tryeditor_page() {
 		LoggerLoad.info("Arrays - Practice Questions3");
 		arrays.que3();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 
 	@When("User click on Question4 its navigate to tryeditor page")
 	public void user_click_on_question4_its_navigate_to_tryeditor_page() {
 		LoggerLoad.info("Arrays - Practice Questions4");
 		arrays.que4();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 }

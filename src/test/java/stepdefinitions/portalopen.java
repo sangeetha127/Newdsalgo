@@ -44,5 +44,6 @@ public class portalopen extends Combase {
 		LoggerLoad.info(driversetup.getdriverTitle());
 		Assert.assertEquals(HomepgTitle,ExpTitle);
 		LoggerLoad.info("User navigated to home page");
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 }

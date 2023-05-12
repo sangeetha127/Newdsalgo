@@ -44,18 +44,21 @@ WebDriver driver = driversetup.getDriver();
 		LoggerLoad.info("user is in Linked list page");
 		//linkedlistpage.selectlinklist();
 		homepage.selectlinklist();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 
 	@And("The user clicks on {string} link")
 	public void the_user_clicks_on_link(String string) {
 		LoggerLoad.info(string + " link got clicked");
 		linkedlistpage.introOfLinkedlist();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		LoggerLoad.info(string + " link got clicked");
 	}
 
 	@When("The user clicks {string} button in the {string} page")
 	public void the_user_clicks_button_in_the_page(String TryHere, String introduction) {
 		linkedlistpage.tryHereLink();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		LoggerLoad.info(TryHere + " got clicked on " + introduction + " page");
 	}
 
@@ -63,6 +66,7 @@ WebDriver driver = driversetup.getDriver();
 	public void the_user_should_be_redirected_to_a_page_having_an_try_editor_with_a_run_button_to_test() {
 		linkedlistpage.codeMirrorText();
 		linkedlistpage.clickRunButton();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		String res = linkedlistpage.codeOutput();
 		System.out.println("result = " + res);
 	}
@@ -71,9 +75,11 @@ WebDriver driver = driversetup.getDriver();
 	public void user_will_navigate_back_and_returns_to_try_editor_to_give_invalid_python_code() {
 		driversetup.NavBack();
 		linkedlistpage.tryHereLink();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		linkedlistpage.invalidPythonCode();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		linkedlistpage.clickRunButton();
-
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 
 	@Then("user will get alert message and accept it")
@@ -81,8 +87,6 @@ WebDriver driver = driversetup.getDriver();
 		Alert alt = driver.switchTo().alert();
 		alt.accept();
 		driversetup.NavBack();
-		
-
 	}
 
 	@Given("The user is in a try here page having  tryEditor with a Run button to test")
@@ -94,6 +98,7 @@ WebDriver driver = driversetup.getDriver();
 	@And("user clicks on tryHere button")
 	public void user_clicks_on_try_here_button() {
 		linkedlistpage.tryHereLink();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 
 	@When("The user Enter valid python code in tryEditor from sheet {string} and {int}")
@@ -108,13 +113,13 @@ WebDriver driver = driversetup.getDriver();
 		
 		linkedlistpage.excelPythonCode(pyCode, output);
 		LoggerLoad.info("python code being sent");
-
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 
 	@When("user click on Run button")
 	public void user_click_on_run_button() {
 		linkedlistpage.clickRunButton();
-
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 
 	@Then("The user should be presented with the Run output")
@@ -122,7 +127,7 @@ WebDriver driver = driversetup.getDriver();
 		String res = linkedlistpage.codeOutput();
 		LoggerLoad.info("result = " + res);
 		driversetup.NavBack();
-
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 
 	@When("The user Enter invalid python code in tryEditor from sheet {string} and {int}")
@@ -155,47 +160,55 @@ WebDriver driver = driversetup.getDriver();
 	@Given("The user is in Linked List page")
 	public void the_user_is_in_linked_list_page() {
 		linkedlistpage= new Lnklist(driver);
-	    
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));	    
 	}
 	@When("The user clicks the {string} a Linked List button")
 	public void the_user_clicks_the_a_linked_list_button(String string) {
 		linkedlistpage.createLnkList();
 		LoggerLoad.info("User is ready to create Linked list");
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 	
 	@Then("The user should be redirected to tryEditor page with a Run button to test")
 	public void the_user_should_be_redirected_to_try_editor_page_with_a_run_button_to_test() {
 		linkedlistpage.tryHereLink();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 	
 	@When("The user clicks the {string} Linked List hyperlink")
 	public void the_user_clicks_the_linked_list_hyperlink(String string) {
 	    linkedlistpage.typesOfLinkedList();
+	    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	    LoggerLoad.info("user clicked on types of linked list link");
 	}
 	@When("The user clicks the {string} link")
 	public void the_user_clicks_the_link(String string) {
 	    linkedlistpage.implementLinkedlist();
+	    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	    LoggerLoad.info("User can implement linkedlist" );
 	}
 	@When("The user clicks {string} link")
 	public void the_user_clicks_link(String string) {
 	   linkedlistpage.traversalLink();
+	   driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	   LoggerLoad.info("user is in Traversal Linked list page");
 	}
 	@When("The user clicks on {string}")
 	public void the_user_clicks_on(String string) {
 	   linkedlistpage.insertionLink();
+	   driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	   LoggerLoad.info("User in insertion linked list page");
 	}
 	@When("The user clicks the {string} link of {string}")
 	public void the_user_clicks_the_link_of(String string, String string2) {
 	   linkedlistpage.deletionLink();
+	   driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	   LoggerLoad.info("User is in deletion of Linked list");
 	}
 	@When("The user clicks on to the {string} link")
 	public void the_user_clicks_on_to_the_link(String string) {
 	    linkedlistpage.practiceQuestionsLink();
+	    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	    LoggerLoad.info("User is in Practice Questions Page");
 	}
 

@@ -51,6 +51,7 @@ public class HomePageSteps extends Combase {
 	public void it_is_showing_error_message_you_are_not_logged_in() {
 		LoggerLoad.error("shows user not logged in");
 		String actmsg1=homepage.alert();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		 assertEquals(actmsg1,"You are not logged in");
 	}
 

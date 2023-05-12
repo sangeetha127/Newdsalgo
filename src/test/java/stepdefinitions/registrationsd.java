@@ -36,7 +36,7 @@ public class registrationsd extends Combase {
 		registerPage.registrationlink();
 		registertitle=driver.getTitle();
 		//System.out.println("registertitle : "+registertitle);
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 
 	@When("user enter username,password,confirm password from given {string} and {int}")
@@ -64,6 +64,7 @@ public class registrationsd extends Combase {
 	public void user_click_register_button_with_expected_message() throws InterruptedException {
 		LoggerLoad.info("Register button click");
 		registerPage.regbtnclk();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		String actmsg="";
 		if (rowval<=2) {
 			WebElement hidtext=new WebDriverWait(driver,Duration.ofSeconds(10)).until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//input[@name='username']"))));
@@ -76,8 +77,9 @@ public class registrationsd extends Combase {
 			assertEquals(actmsg,expmsg);
 		}
 		else if(rowval==10) {
-		/*	System.out.println("drivertitle : "+driver.getTitle());
-			System.out.println("registertitle : "+registertitle);
+			//System.out.println("drivertitle : "+driver.getTitle());
+			//System.out.println("registertitle : "+registertitle);
+			///For existing user credentials validation
 			actmsg=registerPage.alertdismsg();
 			try {
 				assertEquals(driver.getTitle(), registertitle);
@@ -91,16 +93,16 @@ public class registrationsd extends Combase {
 				loginpage.signinlinkclk();
 			}
 			//Assert.assertEquals(actmsg,expmsg);
-			assertEquals(actmsg,expmsg);*/
+			assertEquals(actmsg,expmsg);
 			//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
-			
-			
-			actmsg=loginpage.loginalertdismsg();
+////////////////////////////////////////////////////////////////////////////////////////////////			
+			//for new user credentials validation
+		/*	actmsg=loginpage.loginalertdismsg();
 			
 			Assert.assertEquals(actmsg, expmsg);  //for demo we need to uncomment this to make a failed test case
 			loginpage.signoutclk();
 			loginpage.loginalertdismsg();
-			loginpage.signinlinkclk();
+			loginpage.signinlinkclk();*/
 		}
 	}
 	

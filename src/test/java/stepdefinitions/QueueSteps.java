@@ -34,25 +34,29 @@ public class QueueSteps extends Combase {
 	@Given("user able to click on dropdown for queue")
 	public void user_able_to_click_on_dropdown_for_queue() throws InterruptedException {
 		homepage = new HomePage(driver);
-		homepage.dropDownclk();  
+		homepage.dropDownclk(); 
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 
 	@When("user select queue option")
 	public void user_select_queue_option() throws InterruptedException {
 		//queuepage.selectqueue();
 		homepage.selectqueue();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		LoggerLoad.info("select Queue menu from dropdown");	   
 	}
 
 	@When("user select queue in python")
 	public void user_select_queue_in_python() throws InterruptedException {
 		LoggerLoad.info("select queuein python");
-		queuepage.queuemenuselection(1);		  
+		queuepage.queuemenuselection(1);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 
 	@Given("user click on Try Here button in queue")
 	public void user_click_on_try_here_button_in_queue() {
 		queuepage.queuetrybtnclk();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		LoggerLoad.info("queue try button click");
 	}
 
@@ -66,12 +70,14 @@ public class QueueSteps extends Combase {
 		expmsg=output;
 		System.out.println(pythoncode);
 		System.out.println(output);
-		queuepage.queuereadcode(pythoncode);	    
+		queuepage.queuereadcode(pythoncode);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 
 	@When("user click run button in queue")
 	public void user_click_run_button_in_queue() throws InterruptedException {
 		queuepage.queuerunbtnclk();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		LoggerLoad.info("queue run button click");
 	}
 
@@ -92,7 +98,8 @@ public class QueueSteps extends Combase {
 		expmsg=output;
 		System.out.println(pythoncode);
 		System.out.println(output);
-		queuepage.queuereadcode(pythoncode);    
+		queuepage.queuereadcode(pythoncode);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 
 	@Then("user should get alert in queue")
@@ -112,26 +119,30 @@ public class QueueSteps extends Combase {
 	@Given("user select using collections")
 	public void user_select_using_collections() throws InterruptedException {
 		LoggerLoad.info("select queue using collections");
-		queuepage.queuemenuselection(2);		    
+		queuepage.queuemenuselection(2);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 
 	@Given("user select using array page")
 	public void user_select_using_array_page() throws InterruptedException {
 		LoggerLoad.info("select queue using arrays");
-		queuepage.queuemenuselection(3);			    
+		queuepage.queuemenuselection(3);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 
 	@Given("user select queue operation page")
 	public void user_select_queue_operation_page() throws InterruptedException {
 		LoggerLoad.info("select queue operation");
-		queuepage.queuemenuselection(4);		    
+		queuepage.queuemenuselection(4);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 
 
 	@Given("user select practice questions in queue")
 	public void user_select_practice_questions_in_queue() throws InterruptedException {
 		LoggerLoad.info("select practice questions in queue");
-		queuepage.queuemenuselection(5);		   
+		queuepage.queuemenuselection(5);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 
 	@Given("navigate back to login page from queue")

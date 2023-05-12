@@ -1,4 +1,6 @@
 package Testrunners;
+import org.testng.annotations.DataProvider;
+
 import io.cucumber.testng.*;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 
@@ -18,7 +20,11 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 		glue= {"stepdefinitions","Allhooks"}) //location of step definition files, gives granural level of info in test result
 
 public class samtestrunner extends AbstractTestNGCucumberTests {
-
+	@Override
+	@DataProvider(parallel=true)
+	public Object[][] scenarios() {
+		return super.scenarios();
+	}
 }
 
 
